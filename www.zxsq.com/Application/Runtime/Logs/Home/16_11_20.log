@@ -1,0 +1,110 @@
+[ 2016-11-20T11:16:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000535s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.046636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.047197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006545s ]
+
+[ 2016-11-20T11:16:44+08:00 ] 127.0.0.1 /index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004181s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:1.5055s ]
+SQL: SELECT * FROM `admin_user` WHERE ( username = 'mahongwei' ) LIMIT 1   [ RunTime:0.0908s ]
+NOTIC: [8] Undefined index: userid E:\www.zxsq.com\Application\Home\Controller\IndexController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000694s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003905s ]
+
+[ 2016-11-20T11:16:46+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005364s ]
+ERR: 1146:Table 'scoredb.tb_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_member`
+ERR: 1146:Table 'scoredb.tb_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_member`
+
+[ 2016-11-20T13:16:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000588s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008517s ]
+
+[ 2016-11-20T13:17:35+08:00 ] 127.0.0.1 /index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012826s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.1610s ]
+SQL: SELECT * FROM `admin_user` WHERE ( username = 'mahongwei' ) LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: userid E:\www.zxsq.com\Application\Home\Controller\IndexController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005744s ]
+
+[ 2016-11-20T13:17:37+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015935s ]
+ERR: 1146:Table 'scoredb.tb_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_member`
+ERR: 1146:Table 'scoredb.tb_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_member`
+

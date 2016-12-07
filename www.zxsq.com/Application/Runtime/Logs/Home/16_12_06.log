@@ -1,0 +1,425 @@
+[ 2016-12-06T11:17:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000527s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000989s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012015s ]
+
+[ 2016-12-06T11:17:53+08:00 ] 127.0.0.1 /index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022527s ]
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: php_network_getaddresses: getaddrinfo failed: ��֪��������������  E:\www.zxsq.com\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] php_network_getaddresses: getaddrinfo failed: ��֪��������������  (trying to connect via tcp://127.0.0.1：3306:3306) E:\www.zxsq.com\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: ��֪�������������� 
+
+[ 2016-12-06T11:19:25+08:00 ] 127.0.0.1 /index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005568s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.1335s ]
+SQL: SELECT * FROM `admin_user` WHERE ( username = 'mahongwei' ) LIMIT 1   [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003261s ]
+
+[ 2016-12-06T11:19:34+08:00 ] 127.0.0.1 /index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010564s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `admin_user` WHERE ( username = 'mahongwei' ) LIMIT 1   [ RunTime:0.0037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000631s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002883s ]
+
+[ 2016-12-06T11:21:55+08:00 ] 127.0.0.1 /index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007089s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.1089s ]
+SQL: SELECT * FROM `admin_user` WHERE ( username = 'mahongwei' ) LIMIT 1   [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: userid E:\www.zxsq.com\Application\Home\Controller\IndexController.class.php 第 117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000698s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004628s ]
+
+[ 2016-12-06T11:21:57+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010898s ]
+ERR: 1146:Table 'scoredb.tb_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_member`
+ERR: 1146:Table 'scoredb.tb_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_member`
+
+[ 2016-12-06T11:23:29+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011230s ]
+ERR: 1146:Table 'scoredb.tb_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_member`
+ERR: 1146:Table 'scoredb.tb_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_member`
+
+[ 2016-12-06T11:24:23+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008229s ]
+ERR: 1146:Table 'scoredb.tb_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_member`
+ERR: 1146:Table 'scoredb.tb_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_member`
+
+[ 2016-12-06T11:31:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008658s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000427s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000821s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009061s ]
+
+[ 2016-12-06T11:31:43+08:00 ] 127.0.0.1 /index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005723s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0383s ]
+SQL: SELECT * FROM `admin_user` WHERE ( username = 'mahongwei' ) LIMIT 1   [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: userid E:\www.zxsq.com\Application\Home\Controller\IndexController.class.php 第 117 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006705s ]
+
+[ 2016-12-06T11:31:44+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003253s ]
+ERR: 1146:Table 'scoredb.tb_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_member`
+ERR: 1146:Table 'scoredb.tb_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_member`
+
+[ 2016-12-06T11:33:07+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004490s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0462s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` LIMIT 1   [ RunTime:0.0037s ]
+SQL: SELECT * FROM `member` ORDER BY member_id desc LIMIT 0,10   [ RunTime:0.0078s ]
+ERR: 1146:Table 'scoredb.variable' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `variable`
+ERR: 1146:Table 'scoredb.variable' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `variable`
+
+[ 2016-12-06T11:34:29+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004769s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000793s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.066960s ]
+NOTIC: [8] Undefined variable: r E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 183 行.
+NOTIC: [8] Undefined variable: r E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 189 行.
+NOTIC: [8] Undefined variable: k E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 196 行.
+NOTIC: [8] Undefined variable: k E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 201 行.
+NOTIC: [8] Undefined variable: k E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined variable: k E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 214 行.
+NOTIC: [8] Undefined variable: k E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined variable: k E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 225 行.
+NOTIC: [8] Undefined variable: k E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 232 行.
+NOTIC: [8] Undefined variable: s E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 237 行.
+NOTIC: [8] Undefined variable: s E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 243 行.
+NOTIC: [8] Undefined variable: k E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 250 行.
+NOTIC: [8] Undefined variable: list E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 305 行.
+NOTIC: [8] Undefined variable: page E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 327 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.271458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.271996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.033630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.034023s ]
+
+[ 2016-12-06T11:34:44+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004729s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000624s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000981s ]
+NOTIC: [8] Undefined variable: r E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 183 行.
+NOTIC: [8] Undefined variable: r E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 189 行.
+NOTIC: [8] Undefined variable: k E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 196 行.
+NOTIC: [8] Undefined variable: k E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 201 行.
+NOTIC: [8] Undefined variable: k E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 207 行.
+NOTIC: [8] Undefined variable: k E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 214 行.
+NOTIC: [8] Undefined variable: k E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Undefined variable: k E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 225 行.
+NOTIC: [8] Undefined variable: k E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 232 行.
+NOTIC: [8] Undefined variable: s E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 237 行.
+NOTIC: [8] Undefined variable: s E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 243 行.
+NOTIC: [8] Undefined variable: k E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 250 行.
+NOTIC: [8] Undefined variable: list E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 305 行.
+NOTIC: [8] Undefined variable: page E:\www.zxsq.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 327 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005612s ]
+
+[ 2016-12-06T11:34:49+08:00 ] 127.0.0.1 /index.php/Home/Integralorder/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005302s ]
+ERR: 1146:Table 'scoredb.tb_new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_new`
+ERR: 1146:Table 'scoredb.tb_new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_new`
+
+[ 2016-12-06T11:34:58+08:00 ] 127.0.0.1 /index.php/Home/Integral/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004013s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.1330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` left join member on member.member_id = tb_amountrecord.uid left join admin_user on admin_user.aid = tb_amountrecord.operatorid  WHERE `type` = 6 LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT * FROM `tb_amountrecord` left join member on member.member_id = tb_amountrecord.uid left join admin_user on admin_user.aid = tb_amountrecord.operatorid  WHERE `type` = 6 LIMIT 0,10   [ RunTime:0.0302s ]
+NOTIC: [8] Undefined index: username E:\www.zxsq.com\Application\Home\Controller\IntegralController.class.php 第 59 行.
+NOTIC: [8] Undefined index: date E:\www.zxsq.com\Application\Home\Controller\IntegralController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000418s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000677s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005218s ]
+
+[ 2016-12-06T11:35:04+08:00 ] 127.0.0.1 /index.php/Home/Withdraw/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004503s ]
+SQL: SHOW COLUMNS FROM `pd_cash` [ RunTime:0.1504s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pd_cash` left join member on member.member_id = pd_cash.pdc_member_id  LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `pd_cash` left join member on member.member_id = pd_cash.pdc_member_id  LIMIT 0,10   [ RunTime:0.0097s ]
+SQL: SELECT SUM(pdc_amount) AS tp_Sum FROM `pd_cash` WHERE `pdc_payment_state` = '0' LIMIT 1   [ RunTime:0.0113s ]
+SQL: SELECT SUM(pdc_amount) AS tp_Sum FROM `pd_cash` WHERE `pdc_payment_state` = '1' LIMIT 1   [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: username E:\www.zxsq.com\Application\Home\Controller\WithdrawController.class.php 第 58 行.
+NOTIC: [8] Undefined index: date E:\www.zxsq.com\Application\Home\Controller\WithdrawController.class.php 第 59 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000891s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003594s ]
+
+[ 2016-12-06T11:35:10+08:00 ] 127.0.0.1 /index.php/Home/Lower/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003250s ]
+NOTIC: [8] Undefined index: username E:\www.zxsq.com\Application\Home\Controller\LowerController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000720s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001074s ]
+NOTIC: [8] Undefined variable: name E:\www.zxsq.com\Application\Runtime\Cache\Home\3729bfb92949d68624dca8435a75def2.php 第 207 行.
+NOTIC: [8] Undefined variable: date E:\www.zxsq.com\Application\Runtime\Cache\Home\3729bfb92949d68624dca8435a75def2.php 第 211 行.
+NOTIC: [8] Undefined variable: level E:\www.zxsq.com\Application\Runtime\Cache\Home\3729bfb92949d68624dca8435a75def2.php 第 217 行.
+NOTIC: [8] Undefined variable: level E:\www.zxsq.com\Application\Runtime\Cache\Home\3729bfb92949d68624dca8435a75def2.php 第 218 行.
+NOTIC: [8] Undefined variable: level E:\www.zxsq.com\Application\Runtime\Cache\Home\3729bfb92949d68624dca8435a75def2.php 第 219 行.
+NOTIC: [8] Undefined variable: level E:\www.zxsq.com\Application\Runtime\Cache\Home\3729bfb92949d68624dca8435a75def2.php 第 220 行.
+NOTIC: [8] Undefined variable: level E:\www.zxsq.com\Application\Runtime\Cache\Home\3729bfb92949d68624dca8435a75def2.php 第 221 行.
+NOTIC: [8] Undefined variable: level E:\www.zxsq.com\Application\Runtime\Cache\Home\3729bfb92949d68624dca8435a75def2.php 第 222 行.
+NOTIC: [8] Undefined variable: ward E:\www.zxsq.com\Application\Runtime\Cache\Home\3729bfb92949d68624dca8435a75def2.php 第 238 行.
+NOTIC: [8] Undefined variable: data E:\www.zxsq.com\Application\Runtime\Cache\Home\3729bfb92949d68624dca8435a75def2.php 第 263 行.
+NOTIC: [8] Undefined variable: show E:\www.zxsq.com\Application\Runtime\Cache\Home\3729bfb92949d68624dca8435a75def2.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014296s ]
+
+[ 2016-12-06T11:35:16+08:00 ] 127.0.0.1 /index.php/Home/Bonus/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006252s ]
+SQL: SHOW COLUMNS FROM `ransfer_record` [ RunTime:0.0710s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ransfer_record` WHERE `ransferid` > 0 LIMIT 1   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `ransfer_record` join member on member.member_name=ransfer_record.member_name  WHERE `ransferid` > 0 LIMIT 0,10   [ RunTime:0.0196s ]
+SQL: SHOW COLUMNS FROM `settlement_records` [ RunTime:0.0685s ]
+SQL: SELECT * FROM `settlement_records` WHERE `time` BETWEEN '2016-12-05 00:00:01' AND '2016-12-12 00:00:00'  [ RunTime:0.0217s ]
+NOTIC: [8] Undefined variable: dec_num E:\www.zxsq.com\Application\Home\Controller\BonusController.class.php 第 59 行.
+NOTIC: [2] array_sum() expects parameter 1 to be array, null given E:\www.zxsq.com\Application\Home\Controller\BonusController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: no_bnus_num E:\www.zxsq.com\Application\Home\Controller\BonusController.class.php 第 60 行.
+NOTIC: [2] array_sum() expects parameter 1 to be array, null given E:\www.zxsq.com\Application\Home\Controller\BonusController.class.php 第 60 行.
+NOTIC: [8] Undefined variable: yes_bnus_num E:\www.zxsq.com\Application\Home\Controller\BonusController.class.php 第 61 行.
+NOTIC: [2] array_sum() expects parameter 1 to be array, null given E:\www.zxsq.com\Application\Home\Controller\BonusController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: special E:\www.zxsq.com\Application\Home\Controller\BonusController.class.php 第 62 行.
+NOTIC: [2] array_sum() expects parameter 1 to be array, null given E:\www.zxsq.com\Application\Home\Controller\BonusController.class.php 第 62 行.
+NOTIC: [8] Undefined variable: level E:\www.zxsq.com\Application\Home\Controller\BonusController.class.php 第 65 行.
+NOTIC: [2] array_sum() expects parameter 1 to be array, null given E:\www.zxsq.com\Application\Home\Controller\BonusController.class.php 第 65 行.
+NOTIC: [8] Undefined variable: truename E:\www.zxsq.com\Application\Home\Controller\BonusController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000444s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000683s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007066s ]
+
+[ 2016-12-06T11:35:20+08:00 ] 127.0.0.1 /index.php/Home/High/up
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002897s ]
+NOTIC: [8] Undefined index: username E:\www.zxsq.com\Application\Home\Controller\HighController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000869s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001285s ]
+NOTIC: [8] Undefined variable: name E:\www.zxsq.com\Application\Runtime\Cache\Home\183c17c46e9ac99a0e2d77298e955ecf.php 第 205 行.
+NOTIC: [8] Undefined variable: date E:\www.zxsq.com\Application\Runtime\Cache\Home\183c17c46e9ac99a0e2d77298e955ecf.php 第 209 行.
+NOTIC: [8] Undefined variable: real_reward E:\www.zxsq.com\Application\Runtime\Cache\Home\183c17c46e9ac99a0e2d77298e955ecf.php 第 224 行.
+NOTIC: [8] Undefined variable: reward E:\www.zxsq.com\Application\Runtime\Cache\Home\183c17c46e9ac99a0e2d77298e955ecf.php 第 235 行.
+NOTIC: [8] Undefined variable: result E:\www.zxsq.com\Application\Runtime\Cache\Home\183c17c46e9ac99a0e2d77298e955ecf.php 第 258 行.
+NOTIC: [8] Undefined variable: show E:\www.zxsq.com\Application\Runtime\Cache\Home\183c17c46e9ac99a0e2d77298e955ecf.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004318s ]
+

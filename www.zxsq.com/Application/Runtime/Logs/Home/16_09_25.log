@@ -1,0 +1,492 @@
+[ 2016-09-25T00:03:05+08:00 ] 5.10.148.125 /zxsq/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-09-25T00:09:00+08:00 ] 111.199.81.95 /zxsq/index.php/Home/Register/res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Undefined index: username D:\WWW\zxsq\Application\Home\Controller\RegisterController.class.php 第 21 行.
+
+[ 2016-09-25T00:09:08+08:00 ] 111.199.81.95 /zxsq/index.php/Home/Register/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `tb_bankinfo` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_bankinfo`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2016-09-25T00:11:45+08:00 ] 111.199.81.95 /zxsq/index.php/Home/Register/res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_user` WHERE `username` = 'test2'  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE `bankcard` = '11'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_user` WHERE `username` = '11' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2016-09-25T00:11:52+08:00 ] 111.199.81.95 /zxsq/index.php/Home/Register/res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_user` WHERE `username` = 'test2'  [ RunTime:0.0015s ]
+
+[ 2016-09-25T00:11:57+08:00 ] 111.199.81.95 /zxsq/index.php/Home/Register/res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_user` WHERE `username` = 'test2'  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE `bankcard` = '11'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_user` WHERE `username` = '1111' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2016-09-25T00:12:07+08:00 ] 111.199.81.95 /zxsq/index.php/Home/Register/res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE `username` = 'test2'  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE `bankcard` = '11'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `t_user` WHERE `username` = 'macs' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2016-09-25T03:47:18+08:00 ] 203.208.60.226 /zxsq/index.php/Home/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `tb_bankinfo` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_bankinfo`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2016-09-25T03:52:26+08:00 ] 203.208.60.219 /zxsq/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2016-09-25T04:16:46+08:00 ] 203.208.60.171 /zxsq/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-09-25T04:21:46+08:00 ] 203.208.60.176 /zxsq/index.php/Home/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `tb_bankinfo` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_bankinfo`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-09-25T04:26:10+08:00 ] 203.208.60.169 /zxsq/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-09-25T05:20:39+08:00 ] 111.206.36.12 /zxsq/index.php/Home/Register/res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Undefined index: username D:\WWW\zxsq\Application\Home\Controller\RegisterController.class.php 第 21 行.
+
+[ 2016-09-25T07:35:18+08:00 ] 123.122.9.167 /zxsq/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-09-25T15:52:28+08:00 ] 114.242.248.177 /zxsq/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-09-25T15:52:36+08:00 ] 114.242.248.177 /zxsq/index.php/Home/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `tb_bankinfo` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `tb_bankinfo`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-09-25T15:54:31+08:00 ] 114.242.248.177 /zxsq/index.php/Home/Register/res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE `username` = 'fa_wilson'  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE `bankcard` = '6220 3359 3335 2211'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_user` WHERE `username` = 'zxkj' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_user` WHERE `inviterid` = 'zxkj' ORDER BY teamsign desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0017s ]
+SQL: INSERT INTO `t_user` (`teamsign`,`username`,`loginpwd`,`inviterid`,`mobile`,`createTime`) VALUES ('001001','fa_wilson','caiwu123','zxkj','18910033558','2016-09-25 15:54:31') [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant cotresult - assumed 'cotresult' D:\WWW\zxsq\Application\Home\Controller\RegisterController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0016s ]
+SQL: INSERT INTO `tb_userinfo` (`userid`,`name`,`sex`,`idcard`,`bankname`,`bankcard`,`address`,`email`) VALUES ('44','周伟','1','220303197804052235','华夏银行 ','6220 3359 3335 2211','北京朝阳区','18910033558@163.com') [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0015s ]
+SQL: INSERT INTO `tb_userbalance` (`userid`) VALUES ('44') [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_equity` ORDER BY createdate desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_variable` WHERE `name` = 'boxtotal' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0019s ]
+SQL: INSERT INTO `tb_amountrecord` (`uid`,`type`,`status`,`bankcard`,`bankName`,`equity`,`declaration_price`,`declaration_num`,`declaration_date`) VALUES ('44','3','1','6220 3359 3335 2211','华夏银行 ','0.1','3000','30000','2016-09-25 15:54:31') [ RunTime:0.0027s ]
+SQL: SELECT * FROM `tb_variable` WHERE `name` = 'allscores' LIMIT 1   [ RunTime:0.0014s ]
+SQL: UPDATE `tb_variable` SET `value`='9692700' WHERE `name` = 'allscores' [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid=44 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: UPDATE `tb_userbalance` SET `remainbalance`='99000' WHERE ( userid=44 ) [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-09-25T15:54:33+08:00 ] 114.242.248.177 /zxsq/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-09-25T15:54:42+08:00 ] 114.242.248.177 /zxsq/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_user` WHERE ( username = 'fa_wilson' ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-09-25T15:54:43+08:00 ] 114.242.248.177 /zxsq/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 44 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=44 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=44 )  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=44 ) LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 43 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: show D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 67 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2016-09-25T15:55:53+08:00 ] 114.242.248.177 /zxsq/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 44 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=44 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=44 )  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=44 ) LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 43 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: show D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 67 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-09-25T15:56:09+08:00 ] 114.242.248.177 /zxsq/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_user` WHERE `userid` = 44 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tbb_admin` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `tbb_admin` WHERE `inviterid` = 'fa_wilson'  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE `userid` = 44 LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: equity D:\WWW\zxsq\Application\Runtime\Cache\Home\6830cbac89ff06451c77cd8769d6d4ca.php 第 142 行.
+NOTIC: [8] Undefined variable: remarks D:\WWW\zxsq\Application\Runtime\Cache\Home\6830cbac89ff06451c77cd8769d6d4ca.php 第 156 行.
+NOTIC: [8] Undefined variable: remainbalance D:\WWW\zxsq\Application\Runtime\Cache\Home\6830cbac89ff06451c77cd8769d6d4ca.php 第 158 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-09-25T15:56:17+08:00 ] 114.242.248.177 /zxsq/index.php/Home/Show/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 44 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=44 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=44 )  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=44 ) LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 43 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: show D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 67 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+

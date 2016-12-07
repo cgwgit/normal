@@ -1,0 +1,2147 @@
+[ 2016-09-28T09:12:08+08:00 ] ::1 /zxsq/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T09:12:12+08:00 ] ::1 /zxsq/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `t_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: message D:\WWW\zxsq\Application\Runtime\Cache\Home\940b8ea4e6c49feb733ebbab05cc5976.php 第 35 行.
+NOTIC: [8] Undefined variable: message D:\WWW\zxsq\Application\Runtime\Cache\Home\940b8ea4e6c49feb733ebbab05cc5976.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T09:12:19+08:00 ] ::1 /zxsq/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `t_user` WHERE ( username = 'zxkj' ) LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T09:12:25+08:00 ] ::1 /zxsq/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: show D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: data D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T09:12:34+08:00 ] ::1 /zxsq/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `t_user` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tbb_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tbb_admin` WHERE `inviterid` = 'zxkj'  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: equity D:\WWW\zxsq\Application\Runtime\Cache\Home\6830cbac89ff06451c77cd8769d6d4ca.php 第 143 行.
+NOTIC: [8] Undefined variable: stepinfo D:\WWW\zxsq\Application\Runtime\Cache\Home\6830cbac89ff06451c77cd8769d6d4ca.php 第 154 行.
+NOTIC: [8] Undefined variable: remarks D:\WWW\zxsq\Application\Runtime\Cache\Home\6830cbac89ff06451c77cd8769d6d4ca.php 第 165 行.
+NOTIC: [8] Undefined variable: remainbalance D:\WWW\zxsq\Application\Runtime\Cache\Home\6830cbac89ff06451c77cd8769d6d4ca.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T09:12:37+08:00 ] ::1 /zxsq/index.php/Home/Show/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: show D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: data D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T09:12:38+08:00 ] ::1 /zxsq/index.php/Home/Show/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: show D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 83 行.
+NOTIC: [8] Undefined variable: data D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T09:13:22+08:00 ] ::1 /zxsq/index.php/Home/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T09:13:23+08:00 ] ::1 /zxsq/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T09:13:42+08:00 ] ::1 /zxsq/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `t_user` WHERE ( username = 'zxkj' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T09:13:43+08:00 ] ::1 /zxsq/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: show D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T09:13:51+08:00 ] ::1 /zxsq/index.php/Home/Show/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `tb_equity` ORDER BY createdate desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tb_variable` WHERE `name` = 'boxtotal' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_variable` WHERE `name` = 'allscores' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\WWW\zxsq\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\zxsq\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tb_amountrecord` (`remark`,`declaration_num`,`declaration_price`,`equity`,`bankName`,`bankcard`,`type`,`uid`,`status`,`declaration_date`) VALUES ('1000','30000','3000','0.1','北京银行','6225880165884566','3','1','1','2016-09-28 09:13:51') [ RunTime:0.0040s ]
+SQL: UPDATE `tb_variable` SET `value`='9949000' WHERE `name` = 'allscores' [ RunTime:0.0030s ]
+SQL: UPDATE `tb_userbalance` SET `remainbalance`='85000' WHERE ( userid=1 ) [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T09:13:52+08:00 ] ::1 /zxsq/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: show D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T09:15:14+08:00 ] ::1 /zxsq/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: show D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T09:15:19+08:00 ] ::1 /zxsq/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T09:15:40+08:00 ] ::1 /zxsq/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: show D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T09:16:02+08:00 ] ::1 /zxsq/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) )  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: show D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 83 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:33:27+08:00 ] ::1 /zxsq/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: f D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 117 行.
+NOTIC: [8] Undefined variable: list D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 196 行.
+NOTIC: [8] Undefined variable: page D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 213 行.
+NOTIC: [8] Undefined variable: equity D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined variable: stepinfo D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 237 行.
+NOTIC: [8] Undefined variable: remarks D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 263 行.
+NOTIC: [8] Undefined variable: remainbalance D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:33:32+08:00 ] ::1 /zxsq/index.php/Home/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:33:33+08:00 ] ::1 /zxsq/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: f D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 117 行.
+NOTIC: [8] Undefined variable: list D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 196 行.
+NOTIC: [8] Undefined variable: page D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 213 行.
+NOTIC: [8] Undefined variable: equity D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined variable: stepinfo D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 237 行.
+NOTIC: [8] Undefined variable: remarks D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 263 行.
+NOTIC: [8] Undefined variable: remainbalance D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T15:33:36+08:00 ] ::1 /zxsq/index.php/Home/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T15:33:37+08:00 ] ::1 /zxsq/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: f D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 117 行.
+NOTIC: [8] Undefined variable: list D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 196 行.
+NOTIC: [8] Undefined variable: page D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 213 行.
+NOTIC: [8] Undefined variable: equity D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined variable: stepinfo D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 237 行.
+NOTIC: [8] Undefined variable: remarks D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 263 行.
+NOTIC: [8] Undefined variable: remainbalance D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T15:33:38+08:00 ] ::1 /zxsq/index.php/Home/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:33:39+08:00 ] ::1 /zxsq/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: f D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 117 行.
+NOTIC: [8] Undefined variable: list D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 196 行.
+NOTIC: [8] Undefined variable: page D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 213 行.
+NOTIC: [8] Undefined variable: equity D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined variable: stepinfo D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 237 行.
+NOTIC: [8] Undefined variable: remarks D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 263 行.
+NOTIC: [8] Undefined variable: remainbalance D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:33:40+08:00 ] ::1 /zxsq/index.php/Home/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:33:41+08:00 ] ::1 /zxsq/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: f D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 117 行.
+NOTIC: [8] Undefined variable: list D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 196 行.
+NOTIC: [8] Undefined variable: page D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 213 行.
+NOTIC: [8] Undefined variable: equity D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined variable: stepinfo D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 237 行.
+NOTIC: [8] Undefined variable: remarks D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 263 行.
+NOTIC: [8] Undefined variable: remainbalance D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:33:44+08:00 ] ::1 /zxsq/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: f D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 117 行.
+NOTIC: [8] Undefined variable: list D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 196 行.
+NOTIC: [8] Undefined variable: page D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 213 行.
+NOTIC: [8] Undefined variable: equity D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined variable: stepinfo D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 237 行.
+NOTIC: [8] Undefined variable: remarks D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 263 行.
+NOTIC: [8] Undefined variable: remainbalance D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:33:48+08:00 ] ::1 /zxsq/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: f D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 117 行.
+NOTIC: [8] Undefined variable: list D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 196 行.
+NOTIC: [8] Undefined variable: page D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 213 行.
+NOTIC: [8] Undefined variable: equity D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined variable: stepinfo D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 237 行.
+NOTIC: [8] Undefined variable: remarks D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 263 行.
+NOTIC: [8] Undefined variable: remainbalance D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:34:06+08:00 ] ::1 /zxsq/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: f D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 117 行.
+NOTIC: [8] Undefined variable: list D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 196 行.
+NOTIC: [8] Undefined variable: page D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 213 行.
+NOTIC: [8] Undefined variable: equity D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 228 行.
+NOTIC: [8] Undefined variable: stepinfo D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 237 行.
+NOTIC: [8] Undefined variable: remarks D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 263 行.
+NOTIC: [8] Undefined variable: remainbalance D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:36:42+08:00 ] ::1 /zxsq/index.php/Home/Show/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0250s ]
+NOTIC: [8] Undefined index: eid D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 61 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=61 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=61 and status in(1,2) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=61 and status in(1,2) ) LIMIT 3,1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: data D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 86 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:36:44+08:00 ] ::1 /zxsq/index.php/Home/Show/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0230s ]
+NOTIC: [8] Undefined index: eid D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 61 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=61 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=61 and status in(1,2) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=61 and status in(1,2) ) LIMIT 3,1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: data D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 86 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:36:49+08:00 ] ::1 /zxsq/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:36:57+08:00 ] ::1 /zxsq/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `t_user` WHERE ( username = 'zxkj' ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T15:36:59+08:00 ] ::1 /zxsq/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0230s ]
+NOTIC: [8] Undefined index: eid D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 0,1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: data D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 86 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:37:55+08:00 ] ::1 /zxsq/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0270s ]
+NOTIC: [8] Undefined index: eid D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 0,1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: data D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 86 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:38:11+08:00 ] ::1 /zxsq/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0330s ]
+NOTIC: [8] Undefined index: eid D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 0,1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: data D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 86 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:38:44+08:00 ] ::1 /zxsq/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: eid D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 0,1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:38:49+08:00 ] ::1 /zxsq/index.php/Home/Show/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: eid D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1,1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:38:51+08:00 ] ::1 /zxsq/index.php/Home/Show/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: eid D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 2,1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T15:39:10+08:00 ] ::1 /zxsq/index.php/Home/Show/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: eid D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 61 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=61 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=61 and status in(1,2) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=61 and status in(1,2) ) LIMIT 30,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 86 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:39:21+08:00 ] ::1 /zxsq/index.php/Home/Show/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: eid D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 20,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 86 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T15:39:26+08:00 ] ::1 /zxsq/index.php/Home/Show/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: eid D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 20,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 86 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T15:40:55+08:00 ] ::1 /zxsq/index.php/Home/Show/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: eid D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 20,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 86 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:41:07+08:00 ] ::1 /zxsq/index.php/Home/Show/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_equity` ORDER BY createdate desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_variable` WHERE `name` = 'boxtotal' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_variable` WHERE `name` = 'allscores' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\WWW\zxsq\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WWW\zxsq\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tb_amountrecord` (`remark`,`declaration_num`,`declaration_price`,`equity`,`bankName`,`bankcard`,`type`,`uid`,`status`,`declaration_date`) VALUES ('1000','30000','3000','0.1','北京银行','6225880165884566','3','1','1','2016-09-28 15:41:07') [ RunTime:0.0220s ]
+SQL: UPDATE `tb_variable` SET `value`='9955000' WHERE `name` = 'allscores' [ RunTime:0.0160s ]
+SQL: UPDATE `tb_userbalance` SET `remainbalance`='87000' WHERE ( userid=1 ) [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T15:41:09+08:00 ] ::1 /zxsq/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: eid D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:41:17+08:00 ] ::1 /zxsq/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: eid D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:41:22+08:00 ] ::1 /zxsq/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: eid D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T15:41:26+08:00 ] ::1 /zxsq/index.php/Home/Show/index/eid/79
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0050s ]
+SQL: UPDATE `tb_amountrecord` SET `status`='3' WHERE ( eid=79 ) [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:41:29+08:00 ] ::1 /zxsq/index.php/Home/Show/index/eid/79
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0110s ]
+SQL: UPDATE `tb_amountrecord` SET `status`='3' WHERE ( eid=79 ) [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:41:43+08:00 ] ::1 /zxsq/index.php/Home/Show/index/eid/79
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0060s ]
+SQL: UPDATE `tb_amountrecord` SET `status`='3' WHERE ( eid=79 ) [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:42:01+08:00 ] ::1 /zxsq/index.php/Home/Show/index/eid/79
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0060s ]
+SQL: UPDATE `tb_amountrecord` SET `status`='3' WHERE ( eid=79 ) [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 0,1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T15:42:03+08:00 ] ::1 /zxsq/index.php/Home/Show/index/eid/79/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0070s ]
+SQL: UPDATE `tb_amountrecord` SET `status`='3' WHERE ( eid=79 ) [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1,1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:42:04+08:00 ] ::1 /zxsq/index.php/Home/Show/index/eid/79/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0100s ]
+SQL: UPDATE `tb_amountrecord` SET `status`='3' WHERE ( eid=79 ) [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 2,1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:42:07+08:00 ] ::1 /zxsq/index.php/Home/Show/index/eid/79/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0060s ]
+SQL: UPDATE `tb_amountrecord` SET `status`='3' WHERE ( eid=79 ) [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1,1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:42:08+08:00 ] ::1 /zxsq/index.php/Home/Show/index/eid/79/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0070s ]
+SQL: UPDATE `tb_amountrecord` SET `status`='3' WHERE ( eid=79 ) [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 0,1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:42:11+08:00 ] ::1 /zxsq/index.php/Home/Show/index/eid/79/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0100s ]
+SQL: UPDATE `tb_amountrecord` SET `status`='3' WHERE ( eid=79 ) [ RunTime:0.0860s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 3,1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:42:13+08:00 ] ::1 /zxsq/index.php/Home/Show/index/eid/79/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0110s ]
+SQL: UPDATE `tb_amountrecord` SET `status`='3' WHERE ( eid=79 ) [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 5,1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:42:17+08:00 ] ::1 /zxsq/index.php/Home/Show/index/eid/56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0100s ]
+SQL: UPDATE `tb_amountrecord` SET `status`='3' WHERE ( eid=56 ) [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 and status in(1,2) ) LIMIT 0,1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: 3 D:\WWW\zxsq\Application\Home\Controller\ShowController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:45:58+08:00 ] ::1 /zxsq/index.php/Home/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:45:59+08:00 ] ::1 /zxsq/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:46:08+08:00 ] ::1 /zxsq/index.php/Home/Register/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_bankinfo` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tb_bankinfo`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_stepinfo`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-28T15:47:02+08:00 ] ::1 /zxsq/index.php/Home/Register/res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `t_user` WHERE `username` = '222'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE `bankcard` = '6229450658963625568'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `t_user` WHERE `username` = 'zxkj' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `t_user` WHERE `inviterid` = 'zxkj' ORDER BY teamsign desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0090s ]
+SQL: INSERT INTO `t_user` (`teamsign`,`username`,`loginpwd`,`inviterid`,`mobile`,`createTime`) VALUES ('001009','222','123456','zxkj','15623459658','2016-09-28 15:47:02') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cotresult - assumed 'cotresult' D:\WWW\zxsq\Application\Home\Controller\RegisterController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0090s ]
+SQL: INSERT INTO `tb_userinfo` (`userid`,`name`,`sex`,`idcard`,`bankname`,`bankcard`,`address`,`email`,`cardtype`) VALUES ('62','222','1','232127199406012356','浙商银行 ','6229450658963625568','hah','123@qq.com','储蓄卡') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'reward' in 'field list'
+ [ SQL语句 ] : INSERT INTO `tb_userbalance` (`userid`,`intbalance`,`reward`) VALUES ('62','0','0')
+ERR: 1054:Unknown column 'reward' in 'field list'
+ [ SQL语句 ] : INSERT INTO `tb_userbalance` (`userid`,`intbalance`,`reward`) VALUES ('62','0','0')
+
+[ 2016-09-28T15:47:49+08:00 ] ::1 /zxsq/index.php/Home/Register/res
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `t_user` WHERE `username` = '222'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE `bankcard` = '6229450658963625568'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE `username` = 'zxkj' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_user` WHERE `inviterid` = 'zxkj' ORDER BY teamsign desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0080s ]
+SQL: INSERT INTO `t_user` (`teamsign`,`username`,`loginpwd`,`inviterid`,`mobile`,`createTime`) VALUES ('0010003','222','123456','zxkj','15623459658','2016-09-28 15:47:49') [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant cotresult - assumed 'cotresult' D:\WWW\zxsq\Application\Home\Controller\RegisterController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0080s ]
+SQL: INSERT INTO `tb_userinfo` (`userid`,`name`,`sex`,`idcard`,`bankname`,`bankcard`,`address`,`email`,`cardtype`) VALUES ('92','222','1','232127199406012356','浙商银行 ','6229450658963625568','hah','123@qq.com','储蓄卡') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0120s ]
+SQL: INSERT INTO `tb_userbalance` (`userid`,`intbalance`,`reward`) VALUES ('92','0','0') [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-28T15:47:50+08:00 ] ::1 /zxsq/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

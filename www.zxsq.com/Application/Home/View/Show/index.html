@@ -1,0 +1,170 @@
+<include file='Public:header'/>
+			<div class="page-title">
+				<div class="title-env">
+					<h1 class="title">会员订单列表</h1>
+					<p class="description"></p>
+				</div>
+				<div class="breadcrumb-env">
+						<ol class="breadcrumb bc-1">
+							<li>
+								<a href="index.html"><i class="fa-home"></i>Home</a>
+							</li>
+							<li class="active">
+								<strong>会员订单列表</strong>
+							</li>
+						</ol>
+				</div>
+			</div>
+			<!-- Basic Setup -->
+			<div class="panel panel-default">
+			<div class="row">
+				<div class="col-md-12">
+					<form role="form" class="form-horizontal"  method="get" action="__MODULE__/Show/index">
+						<div class="panel-body">
+							<div class="form-group">
+								<label class="col-sm-1 control-label" for="member_name">用户名</label>
+								<div class="col-sm-2">
+									<input type="text" class="form-control" name="member_name" id="username" placeholder="请输入" data-form-un="1475064116344.3933">
+								</div>
+							
+								<label class="col-sm-1 control-label" for="bankcard">银行卡号</label>
+								<div class="col-sm-2">
+									<input type="text" class="form-control" name="bankcard"id="bankcard" placeholder="请输入" data-form-un="1475064116344.3933">
+								</div>
+							
+								<label class="col-sm-1 control-label" for="banktransaction">银行流水号</label>
+								<div class="col-sm-2">
+									<input type="text" class="form-control" name="banktransaction" id="banktransaction" placeholder="请输入" data-form-un="1475064116344.3933">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-1 control-label">报单金额</label>
+								<div class="col-sm-1">
+									<div class="input-group">
+										<input type="text" id="minmoney" name="declaration_price1" class="form-control">
+									</div>
+								</div>
+								<div class="col-sm-1">
+									<div class="input-group">
+										<input type="text" id="maxmoney" name="declaration_price2"declaration_price class="form-control">
+									</div>
+								</div>
+								
+								<label class="col-sm-1 control-label" for="date">到帐日期</label>
+								<div class="col-sm-2">
+									<input type="text" id="finishdate" name="date" id="date" class="form-control daterange" data-format="YYYY-MM-DD" data-start-date="2016-09-01" data-end-date="2016-09-30" data-separator=",">
+								</div>
+								<label class="col-sm-1 control-label" for=""></label>
+								<input type="submit" name="sub" value="查询" class="btn btn-secondary col-sm-1">
+								<input type="reset" name="sub" value="重置" class="btn btn-secondary col-sm-1">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<table class="table table-striped table-bordered" cellspacing="0" width="100%">
+						<thead>
+							<tr>
+								<th>用户名</th>
+								<th>报单银行卡号</th>
+								<th>报单积分数量</th>
+								<th>报单金额</th>
+								<th>报单日期</th>
+								<th>成交积分数量</th>
+								<th>成交金额</th>
+								<th>到账日期</th>
+								<th>银行流水号</th>
+								<th>交易状态</th>
+							</tr>
+						</thead>
+                          
+						<tbody>
+                      <foreach name="list" item="list">
+							<tr>
+								<td>{$list.member_name}</td>
+								<td>{$list.bankcard}</td>
+								<td>{$list.declaration_num}</td>
+								<td>{$list.declaration_price}</td>
+								<td>{$list.declaration_date}</td>
+								<td>{$list.real_num}</td>
+								<td>{$list.amount}</td>
+								<td>{$list.date}</td>
+								<td>{$list.banktransaction}</td>
+								<td>{$list.status}</td>
+							</tr>		
+					    	</foreach>
+						</tbody>
+                    
+					</table>
+                   <!-- <div class="row"><div class="col-xs-6">
+                    <div class="dataTables_paginate paging_simple_numbers" id="example-1_paginate">
+                    <ul class="pagination">
+                    <li class="paginate_button previous disabled" aria-controls="example-1" tabindex="0" id="example-1_previous"><a href="#">Previous</a></li>
+                    <li class="paginate_button active" aria-controls="example-1" tabindex="0"><a href="#">1</a></li>
+                    <li class="paginate_button " aria-controls="example-1" tabindex="0"><a href="#">2</a></li>
+                    <li class="paginate_button " aria-controls="example-1" tabindex="0"><a href="#">3</a></li>
+                    <li class="paginate_button " aria-controls="example-1" tabindex="0"><a href="#">4</a></li>
+                    <li class="paginate_button " aria-controls="example-1" tabindex="0"><a href="#">5</a></li>
+                    <li class="paginate_button " aria-controls="example-1" tabindex="0"><a href="#">6</a></li><
+                    li class="paginate_button next" aria-controls="example-1" tabindex="0" id="example-1_next"><a href="#">Next</a></li></ul>
+                    </div></div></div>-->
+
+					<div class="row"><div class="col-xs-6"><div class="dataTables_info" id="example-1_info" role="status" aria-live="polite"></div></div><div class="col-xs-6"><div class="dataTables_paginate paging_simple_numbers" id="example-1_paginate">{$page}</div></div></div>
+				</div>
+			</div>
+
+			<!-- Main Footer -->
+			<!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
+			<!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
+			<!-- Or class "fixed" to  always fix the footer to the end of page -->
+			<footer class="main-footer sticky footer-type-1">
+				<div class="footer-inner">
+					<!-- Add your copyright text here -->
+					<div class="footer-text">
+						&copy; 2016 
+						<strong>中孝科技（北京）有限公司</strong> 
+					</div>
+					<!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->
+					<div class="go-up">
+						<a href="#" rel="go-top">
+							<i class="fa-angle-up"></i>
+						</a>				
+					</div>					
+				</div>				
+			</footer>
+		</div>			
+	</div>
+	<!-- 界面加载效果 -->
+	<!-- -->
+	<div class="page-loading-overlay">
+		<div class="loader-2"></div>
+	</div>
+	
+	<!-- Imported styles on this page -->
+	<link rel="stylesheet" href="__PUBLIC__/assets/js/datatables/dataTables.bootstrap.css">
+	<link rel="stylesheet" href="__PUBLIC__/assets/js/daterangepicker/daterangepicker-bs3.css">
+
+	<!-- Bottom Scripts -->
+	<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+	<script src="__PUBLIC__/assets/js/TweenMax.min.js"></script>
+	<script src="__PUBLIC__/assets/js/resizeable.js"></script>
+	<script src="__PUBLIC__/assets/js/joinable.js"></script>
+	<script src="__PUBLIC__/assets/js/xenon-api.js"></script>
+	<script src="__PUBLIC__/assets/js/xenon-toggles.js"></script>
+	<script src="__PUBLIC__/assets/js/datatables/js/jquery.dataTables.min.js"></script>
+	<script src="__PUBLIC__/assets/js/moment.min.js"></script>
+
+	<!-- Imported scripts on this page -->
+	<script src="__PUBLIC__/assets/js/datatables/dataTables.bootstrap.js"></script>
+	<script src="__PUBLIC__/assets/js/datatables/yadcf/jquery.dataTables.yadcf.js"></script>
+	<script src="__PUBLIC__/assets/js/datatables/tabletools/dataTables.tableTools.min.js"></script>
+	<script src="__PUBLIC__/assets/js/daterangepicker/daterangepicker.js"></script>
+
+	<!-- JavaScripts initializations and stuff -->
+	<script src="__PUBLIC__/assets/js/xenon-custom.js"></script>
+
+</body>
+</html>
