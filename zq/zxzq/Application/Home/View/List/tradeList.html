@@ -1,0 +1,50 @@
+<include file="Public:header" />
+<div class="row">
+	<div class="col-sm-1"></div>
+	<div class="col-sm-9">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<div class="panel-title"><i class="fa fa-bar-chart"></i>&nbsp;&nbsp;证券交易明细</div>
+			</div>
+			<div class="panel-body">
+				<table cellspacing="0" class="table table-small-font table-bordered table-striped">
+					<thead>
+						<tr>
+							<th>序号</th>
+							<th>订单编号</th>
+							<th>购买数量</th>
+							<th>交易金额</th>
+							<th>回报杠杆</th>
+							<th>实际成交数量</th>
+							<th>成交时间</th>
+							<!--<th>付款时间</th>
+							<th>交易状态</th>-->
+						</tr>
+					</thead>
+					<tbody>
+						<?php 
+						if(isset($_GET['p'])){
+						$p=$_GET['p'];
+						$a=1+10*($p-1);
+						}else{
+						$a=1;}
+						foreach($trade as $v){ ?>
+						<tr>
+							<td><?php echo $a;$a++; ?>.</span></td>
+							<th><?php echo $v['securitiesid']; ?></th>
+							<td><?php echo $v['securities']; ?></td>
+							<td><?php echo $v['price']; ?></td>
+							<td><?php echo $v['levered']; ?></td>
+							<td><?php echo $v['securitiesnum']; ?></td>
+							<td><?php echo $v['otime']; ?></td>
+							<!--<td><?php echo $v['ctime']; ?></td>
+							<td><?php echo $v['status']; ?></td></tr>-->	
+						<?php } ?>
+					</tbody>
+				</table>
+			</div>
+			<div class="row"><div class="col-xs-6"><div class="dataTables_info" id="example-1_info" role="status" aria-live="polite"></div></div><div class="col-xs-6"><div class="dataTables_paginate paging_simple_numbers" id="example-1_paginate">{$show}</div></div></div>
+		</div>
+	</div>
+</div>
+<include file="Public:footer" />

@@ -1,0 +1,245 @@
+<include file="Public:header" />
+
+
+<div class="page-title">
+	<div class="title-env">
+		<h1 class="title"><?php echo $title; ?></h1>
+		<p class="description"></p>
+	</div>
+	<div class="breadcrumb-env">
+		<ol class="breadcrumb bc-1">
+			<li>
+				<a href="__MODULE__/Index/index"><i class="fa-home"></i>Home</a>
+			</li>
+			<li class="active">
+				<strong><?php echo $title; ?></strong>
+			</li>
+		</ol>
+	</div>
+</div>
+<!-- Errors container -->
+<div class="message-container">
+
+</div>
+<div class="panel panel-default">
+    <div class="panel-body">
+		<div class="row">
+			<div class="col-md-12">
+				<form role="form" class="form-horizontal" action="<?php echo U('UserCenter/userFinance'); ?>" method="get">
+                    <div class="form-group">
+                        <label class="col-sm-1 control-label" for="username">用户名</label>
+                        <div class="col-sm-2">
+                            <input type="text" class="form-control" name="username" id="username" placeholder="请输入用户名/真实姓名" value="<?php echo $user?>" >
+                        </div>
+                        <button class="btn btn-secondary col-sm-1">查询</button>
+					</div>
+				</form>
+			</div>
+		</div>
+      <table class="table table-small-font table-bordered table-striped" cellspacing="0">
+            <thead>
+                <tr>	
+                    <th>用户编号</th>
+                    <th>用户名</th>
+                    <th>证券推荐人</th>
+                    <th>证券网络上级(位置)</th>
+                    <th>可提现数量</th>
+		    <th>持有证券数量</th>
+		    <th>证券购买欠款</th>
+                    <th>证券钱包余额</th>
+		    <th>证券钱包冻结余额</th>
+                    <th>注册时间</th>
+		    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                  <?php foreach($res as $k => $v){ ?>
+		<tr>
+		    <td><?php echo $v['member_sn']; ?></td>
+		    <td><?php echo $v['member_name']; ?></td>
+                    <td><?php echo $v['securities_name']; ?></td>
+		    <td><?php echo $v['network_name'];?><?php if($v['network_name']!=''){ echo '(';}?><?php echo substr($v['network_team'], strlen($v['network_team']) - 2, 2) == '01' ? '左侧' : '' ; ?>
+                        <?php echo substr($v['network_team'], strlen($v['network_team']) - 2, 2) == '02' ? '右侧' : '' ; ?><?php if($v['network_name']!=''){ echo ')';}?></td>
+                    <td><span <?php if($v['status']==0) echo 'class="text-danger"';?>><?php echo $v['amount']; ?></span></td>
+		    <td><?php echo $v['securitiesnum']; ?></td>
+                    <td><span <?php  if($v['price']>0){echo 'class="text-danger"';}?>><?php echo $v['price']; ?></span></td>
+		    <td><?php echo $v['money']; ?></td>
+		    <td><?php echo $v['ktqsecurities']; ?></td>
+                    <td><?php echo date('Y-m-d H:i:s', $v['member_time']); ?></td>
+		    <td>
+                        <a class="btn btn-turquoise btn-sm btn-icon icon-left zqrd" member_id="<?php echo $v['member_id']; ?>">证券入单</a>			
+                        <a href="__MODULE__/UserCenter/zqDetails/member_id/{$v.member_id}" class="btn btn-turquoise btn-sm btn-icon btn-blue icon-left " target="_blank" >订单详情</a>			
+                        <a <?php if($v['status']==0){ echo 'class="btn btn-red btn-sm btn-icon icon-left zqUnLock"';}else{echo 'class="btn btn-gray btn-sm btn-icon icon-left zqUnLock"disabled';}?> member_name='<?php echo $v['member_name']; ?>' dj="<?php echo $v['ktqsecurities']; ?>"  member_id="<?php echo $v['member_id']; ?>"> <?php if($v['status']==0){ echo "可提现证券解冻";}else{echo "已激活";} ?></a>
+                    </td>
+                </tr>
+                  </tr>
+                <?php } ?>
+            </tbody>
+        </table>
+	   <div class="row"><div class="col-xs-6"><div class="dataTables_info" id="example-1_info" role="status" aria-live="polite"></div></div><div class="col-xs-6"><div class="dataTables_paginate paging_simple_numbers" id="example-1_paginate"><?php echo $show; ?></div></div></div>
+	</div>
+    </div>
+<include file="Public:footer"/>
+<!-- securityOrder (Confirm)-->
+<div class="modal fade" id="securityOrder" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">证券入单</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="field-2" class="control-label">证券份额：</label>
+                            <select class="form-control"  id="zqfe">
+                                <option value='0'>--请选择--</option>
+                                <?php foreach($list as $v){ ?>
+                                <option value="<?php echo $v['id']; ?>"><?php echo $v['securities']; ?></option>
+                                <?php } ?>
+                            </select>
+                        </div>
+						<div class="form-group">
+                            <label for="field-2" class="control-label">杠杆率：</label>			
+                            <input type="text" id='ggl' class="form-control" value="0.00" disabled>
+                        </div>
+						<div class="form-group">
+                            <label for="field-2" class="control-label">实获证券数量：</label>			
+                            <input type="text" id='shzq' class="form-control" value="0.00" disabled>
+                        </div>
+						<div class="form-group">
+                            <label for="field-2" class="control-label">应付金额：</label>			
+                            <input type="text" id='yfje' class="form-control" value="0.00" disabled>
+                        </div>
+                        <div class="form-group">
+                            <label for="field-2" class="control-label">实收金额：</label>			
+                            <input type="text" class="form-control" id="ssje" value="0.00" >
+                        </div>
+                    </div>
+                </div>			
+            </div>
+            <div class="modal-footer">
+                <input type="hidden" id="member_id" val="">
+                <button type="button" id="cancel" class="btn btn-white" data-dismiss="modal"  onclick="location.reload()">取消</button>
+                <button type="button" id="subrd" class="btn btn-info" data-dismiss="modal"">确认入单</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- securityThaw (Confirm)-->
+<div class="modal fade" id="securityThaw" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">持有证券解冻</h4>
+            </div>	
+			<!-- Errors container -->
+			<div class="securityThaw-container">
+
+			</div>
+            <div class="modal-body" id='jdMessage'>
+                    陈奕迅 持有证券冻结数量：1000.00，确认解冻？
+            </div>
+            <input type='hidden' id='jsMmmber_id' val=''>
+            <div class="modal-footer">
+                <button type="button" id="cancel" class="btn btn-white" data-dismiss="modal">取消</button>
+                <button type="button" id="jd_submit" class="btn btn-info" data-dismiss="modal">确认并解冻</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    
+    $('.zqrd').click(function(){
+        $('.message-container .alert').slideUp('fast');
+        $('#securityOrder').modal('show', {backdrop: 'static'});
+        $('#member_id').val($(this).attr('member_id'));
+        $('#ggl').val('0.00');
+        $('#shzq').val('0.00');
+        $('#yfje').val('0.00');
+        $('#ssje').val('0.00');
+    });
+    
+    $('#zqfe').change(function(){
+        $.post('<?php echo U('UserCenter/getGoodsInfo') ?>', {goods_id : $(this).val()}, function(res){
+            $('#ggl').val(res.ggl);
+            $('#shzq').val(res.shzq);
+            $('#yfje').val(res.yfje);
+            $('#ssje').val(res.yfje);
+        }, 'json');
+    });
+    
+    $('#subrd').click(function(){
+        var data = {
+            id : $('#zqfe').val(),
+            member_id : $('#member_id').val(),
+            realprice : $('#ssje').val(),
+        };
+        
+        $.post('<?php echo U('UserCenter/addOrder') ?>', data, function(res){
+//            console.log(res);
+            if(res.code != 0){
+                alert(res.message);
+            }else{
+                alert(res.message);
+                window.location.reload();
+            }
+        }, 'json');
+        
+        return false;
+    });
+    
+    $('.zqUnlock').click(function(){
+        $('.message-container .alert').slideUp('fast');
+        $('#securityThaw').modal('show', {backdrop: 'static'});
+        $('#jdMessage').html($(this).attr('member_name') + ' 持有证券冻结数量：' + $(this).attr('dj') + '，确认解冻？');
+        $('#jsMmmber_id').val($(this).attr('member_id'));
+    });
+    
+    $('#jd_submit').click(function(){
+        console.log($('#jsMmmber_id').val());
+        $.post('<?php echo U('UserCenter/zqUnLock'); ?>', {member_id : $('#jsMmmber_id').val()}, function(res){
+            if(res.code != 0){
+                alert(res.message);
+            }else{
+                alert(res.message);
+                window.location.reload();
+            }
+        }, 'json');
+        return false;
+    });
+    
+    
+    function securityOrder() {
+            // Remove any alert
+            $(".message-container .alert").slideUp('fast');
+
+            // Show message
+            $(".message-container").html('<div class="alert alert-success">\
+                    <button type="button" class="close" data-dismiss="alert">\
+                                    <span aria-hidden="true">&times;</span>\
+                                    <span class="sr-only">Close</span>\
+                    </button>\
+                    证券入单成功！\
+                    </div>');
+            $(".message-container .alert").hide().slideDown();
+    }
+
+    function securityThaw() {
+            // Remove any alert
+            $(".message-container .alert").slideUp('fast');
+
+            // Show message
+            $(".message-container").html('<div class="alert alert-success">\
+                    <button type="button" class="close" data-dismiss="alert">\
+                                    <span aria-hidden="true">&times;</span>\
+                                    <span class="sr-only">Close</span>\
+                    </button>\
+                    持有证券解冻成功！\
+                    </div>');
+            $(".message-container .alert").hide().slideDown();
+    }
+</script>

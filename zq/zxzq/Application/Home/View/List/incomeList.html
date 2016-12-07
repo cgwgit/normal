@@ -1,0 +1,44 @@
+<include file="Public:header" />
+<div class="row">
+	<div class="col-sm-1"></div>
+	<div class="col-sm-9">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<div class="panel-title"><i class="fa fa-bar-chart"></i>&nbsp;&nbsp;证券收益明细</div>
+			</div>
+			<div class="panel-body">
+				<table cellspacing="0" class="table table-small-font table-bordered table-striped">
+					<thead>
+						<tr>
+							<th>序号</th>
+							<th>收益类型</th>
+							<th>获得可提现证券</th>
+							<th>获得福利</th>
+							<th>获得商城积分</th>
+							<th>时间</th>
+						</tr>
+					</thead>
+					<tbody>
+						<?php 
+						if(isset($_GET['p'])){
+						$p=$_GET['p'];
+						$a=1+10*($p-1);
+						}else{
+						$a=1;}
+						foreach($income as $v){ ?>
+						<tr>
+							<td><?php echo $a;$a++; ?>.</span></td>
+							<td><?php if($v['status']==1){ echo '推荐奖励' ;}elseif($v['status']==2){ echo '自动释放' ;}elseif($v['status']==3){ echo '提现' ;} ?></td>
+							<td><?php echo $v['securitiesnum']; ?></td>	
+							<td><?php echo $v['welfare']; ?></td>
+							<td><?php echo $v['integration']; ?></td>
+							<td><?php echo $v['time']; ?></td></tr>	
+						<?php } ?>
+					</tbody>
+				</table>
+			</div>
+			<div class="row"><div class="col-xs-6"><div class="dataTables_info" id="example-1_info" role="status" aria-live="polite"></div></div><div class="col-xs-6"><div class="dataTables_paginate paging_simple_numbers" id="example-1_paginate">{$show}</div></div></div>
+		</div>
+	</div>
+</div>
+<include file="Public:footer" />

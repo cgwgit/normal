@@ -1,0 +1,176 @@
+<include file="Public:header" />
+
+<div class="page-title">
+    <div class="title-env">
+        <h1 class="title">用户提现订单</h1>
+        <p class="description"></p>
+    </div>
+    <div class="breadcrumb-env">
+        <ol class="breadcrumb bc-1">
+            <li>
+                <a href="__MODULE__/Index/index"><i class="fa-home"></i>Home</a>
+            </li>
+            <li class="active">
+                <strong>用户提现订单</strong>
+            </li>
+        </ol>
+    </div>
+</div>
+<!-- Errors container -->
+<div class="message-container">
+
+</div>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-12">
+                <form role="form" class="form-horizontal" action="__CONTROLLER__/userCashlist" method="get">
+                    <div class="form-group">
+                        <label class="col-sm-1 control-label" for="cash_member_name">用户名</label>
+                        <div class="col-sm-2">
+                            <input type="text" class="form-control" id="username" name="cash_member_name" placeholder="请输入用户名/真实姓名/用户编号" value="<?php echo $cash_member_name; ?>" >
+                        </div>
+                        <label class="col-sm-1 control-label" for="cash_add_time">申请时间</label>
+                        <div class="col-sm-2">
+                            <input class="form-control daterange active" id="cash_add_time" name="cash_add_time" type="text" value='<?php echo $cash_add_time; ?>'>
+                        </div>
+                        <label class="col-sm-1 control-label">支付状态</label>
+                        <div class="col-sm-2">
+                            <select class="form-control" name='cash_payment_state'>
+                                <option value='0' <?php echo $cash_payment_state==0 ? selected :'' ?>>全部</option>
+                                <option value='1' <?php echo $cash_payment_state==1 ? selected :'' ?>>未支付</option>
+                                <option value='2'<?php echo $cash_payment_state==2 ? selected :'' ?>>已支付</option>
+                            </select>
+                        </div>
+                        <button class="btn btn-secondary col-sm-1">查询</button>
+                        <button class="btn btn-blue col-sm-1">导出</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <table class="table table-small-font table-bordered table-striped" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>订单编号</th>
+                    <th>用户名</th>
+                    <th>姓名</th>
+                    <th>银行名</th>
+                    <th>银行卡号</th>
+                    <th>申请时间</th>
+                    <th>提现金额(元)</th>
+                    <th>支付状态</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach($result as $v){ ?>
+                <tr>
+                    <td><?php echo $v['cash_id'] ?></td>
+                    <td><?php echo $v['member_name'] ?></td>
+                    <td><?php echo $v['member_truename'] ?></td>
+                    <td><?php echo $v['cash_bank_name'] ?></td>
+                    <td><?php echo $v['cash_bank_no'] ?></td>
+                    <td><?php echo $v['cash_add_time'] ?></td>
+                    <td><?php echo $v['cash_amount'] ?></td>
+                    <td><?php echo $v['cash_payment_state'] ==0 ? "未支付" : "支付完成"?></td>
+                    <td>
+                        <a onclick="$('.message-container .alert').slideUp('fast');
+                                jQuery('#arrivaled').modal('show', {backdrop: 'static'});" class="btn btn-blue btn-sm btn-icon icon-left">确认提现</a>
+                    </td>
+                </tr>
+                <?php } ?>
+            </tbody>
+        </table>
+        <div class="row"><div class="col-xs-6"><div class="dataTables_info" id="example-1_info" role="status" aria-live="polite">共查询到<?php echo $count;?>条结果</div></div><div class="col-xs-6"><div class="dataTables_paginate paging_simple_numbers" id="example-1_paginate"><?php echo $show;?></div></div></div>
+    </div>
+</div>
+<!-- Main Footer -->
+<!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
+<!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
+<!-- Or class "fixed" to  always fix the footer to the end of page -->
+<footer class="main-footer sticky footer-type-1">
+    <div class="footer-inner">
+        <!-- Add your copyright text here -->
+        <div class="footer-text">
+            &copy; 2016 
+            <strong>中孝科技（北京）有限公司</strong> 
+        </div>
+        <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->
+        <div class="go-up">
+            <a href="#" rel="go-top">
+                <i class="fa-angle-up"></i>
+            </a>				
+        </div>					
+    </div>				
+</footer>
+</div></div>
+<!-- 界面加载效果 -->
+<!-- -->
+<div class="page-loading-overlay">
+    <div class="loader-2"></div>
+</div>
+
+<!-- Imported styles on this page -->
+<link rel="stylesheet" href="__PUBLIC__/assets/js/datatables/dataTables.bootstrap.css">
+<link rel="stylesheet" href="__PUBLIC__/assets/js/daterangepicker/daterangepicker-bs3.css">
+
+<!-- Bottom Scripts -->
+<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/assets/js/TweenMax.min.js"></script>
+<script src="__PUBLIC__/assets/js/resizeable.js"></script>
+<script src="__PUBLIC__/assets/js/joinable.js"></script>
+<script src="__PUBLIC__/assets/js/xenon-api.js"></script>
+<script src="__PUBLIC__/assets/js/xenon-toggles.js"></script>
+<script src="__PUBLIC__/assets/js/datatables/js/jquery.dataTables.min.js"></script>
+<script src="__PUBLIC__/assets/js/moment.min.js"></script>
+
+<!-- Imported scripts on this page -->
+<script src="__PUBLIC__/assets/js/datatables/dataTables.bootstrap.js"></script>
+<script src="__PUBLIC__/assets/js/datatables/yadcf/jquery.dataTables.yadcf.js"></script>
+<script src="__PUBLIC__/assets/js/datatables/tabletools/dataTables.tableTools.min.js"></script>
+<script src="__PUBLIC__/assets/js/daterangepicker/daterangepicker.js"></script>
+<script src="__PUBLIC__/assets/js/inputmask/jquery.inputmask.bundle.js"></script>
+
+<!-- JavaScripts initializations and stuff -->
+<script src="__PUBLIC__/assets/js/xenon-custom.js"></script>
+</body>
+</html>
+<!-- arrivaled (Confirm)-->
+<div class="modal fade" id="arrivaled" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">确认到帐</h4>
+            </div>	
+            <!-- Errors container -->
+            <div class="securityThaw-container">
+
+            </div>
+            <div class="modal-body">
+                确认用户 邱欣怡 的提现金额：<span class="text-danger">500.00</span>已到账？ 
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="cancel" class="btn btn-white" data-dismiss="modal">取消</button>
+                <button type="button" id="arrivaled" class="btn btn-info" data-dismiss="modal" onclick="arrivaled();">确认提现</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function arrivaled() {
+        // Remove any alert
+        $(".message-container .alert").slideUp('fast');
+
+        // Show message
+        $(".message-container").html('<div class="alert alert-success">\
+                        <button type="button" class="close" data-dismiss="alert">\
+                                        <span aria-hidden="true">&times;</span>\
+                                        <span class="sr-only">Close</span>\
+                        </button>\
+                        确认提现成功！\
+                        </div>');
+        $(".message-container .alert").hide().slideDown();
+    }
+</script>

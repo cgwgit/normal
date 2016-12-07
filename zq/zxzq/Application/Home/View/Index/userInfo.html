@@ -1,0 +1,105 @@
+<include file="Public:header" />
+<div class="row">
+	<div class="col-sm-1"></div>
+	<div class="col-sm-9">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<div class="panel-title">用户档案查看</div>
+<!--				<div class="panel-options">
+					<a href="__MODULE__/Index/accountProfile">
+						<i class="fa-rotate-right"></i>&nbsp;&nbsp;编辑
+					</a>
+				</div>-->
+			</div>
+			<div class="panel-body">
+				<form role="form" class="form-horizontal">
+					<div class="form-group">
+						<label class="col-sm-1 control-label" for="field-1">姓名</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control" id="field-1" placeholder="{$result.member_truename}" disabled="true">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label" for="field-1">身份证号</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control" id="field-1" placeholder="{$result.member_idcard}" disabled="true">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label" for="field-1">手机号码</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control" id="field-1" placeholder="{$result.member_mobile}" disabled="true">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label" for="field-1">开户银行</label>
+						<div class="col-sm-6">
+							<select class="form-control" disabled="true">
+								<option value="{$result.member_bankname}">{$result.member_bankname}</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label" for="field-1">卡片类型</label>
+						<div class="col-sm-6">
+							<select class="form-control" disabled="true">
+								<option value="{$result.member_cardtype}">{$result.member_cardtype}</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label" for="field-1">银行卡号</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control" id="field-1" placeholder="{$result.member_bankcard}" disabled="true">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label" for="field-1">性别</label>
+						<div class="col-sm-6">
+                                                    <input type="text" class="form-control" id="field-1" placeholder="<?php if($result['member_sex']==0){echo '未填写'; }elseif($result['member_sex']==1){echo '男'; }elseif($result['member_sex']==2){echo '女'; }elseif($result['member_sex']==3){echo '保密'; } ?>" disabled="true">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label" for="field-1">联系地址</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control" id="field-1" placeholder="{$result.member_address}" disabled="true">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label" for="field-1">电子邮件</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control" id="field-1" placeholder="{$result.member_email}" disabled="true">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label" for="field-1">注册日期</label>
+						<div class="col-sm-6">
+                                                    <input type="text" class="form-control" id="field-1" placeholder="<?php echo  date('Y-m-d H:i:s',$result['member_time']); ?>" disabled="true">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<!--<div class="row">
+    <div class="col-sm-1"></div>
+	<div class="col-sm-9">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<div class="panel-title">推广资讯</div>
+			</div>
+			<div class="panel-body">
+				<form role="form" class="form-horizontal">
+					<div class="form-group">
+						<label class="col-sm-1 control-label" for="field-1">推荐人</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control" id="field-1" placeholder="{$result.securities_id}" disabled="true">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>-->
+<include file="Public:footer" />

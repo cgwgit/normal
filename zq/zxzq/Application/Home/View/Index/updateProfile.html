@@ -1,0 +1,74 @@
+<include file="Public:header" />
+<div class="row">
+	<div class="col-sm-1"></div>
+	<div class="col-sm-9">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<div class="panel-title">用户档案查看</div>
+			</div>
+			<div class="panel-body">
+				<form role="form" class="form-horizontal">
+					<div class="form-group">
+						<label class="col-sm-1 control-label">姓名：</label>
+						<label class="col-sm-4 control-label-content">{$result.member_truename}</label>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label">身份证号：</label>
+						<label class="col-sm-4 control-label-content">{$result.member_idcard}</label>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label">手机号码：</label>
+						<label class="col-sm-4 control-label-content">{$result.member_mobile}</label>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label">开户银行：</label>
+						<label class="col-sm-4 control-label-content">{$result.member_bankname}</label>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label">卡片类型：</label>
+						<label class="col-sm-4 control-label-content">{$result.member_cardtype}</label>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label">银行卡号：</label>
+						<label class="col-sm-4 control-label-content">{$result.member_bankcard}</label>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label">性别：</label>
+						<label class="col-sm-4 control-label-content"><?php if($result['member_sex']==0){echo '未填写'; }elseif($result['member_sex']==1){echo '男'; }elseif($result['member_sex']==2){echo '女'; }elseif($result['member_sex']==3){echo '保密'; } ?></label>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label">联系地址：</label>
+						<label class="col-sm-4 control-label-content">{$result.member_address}</label>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label">电子邮件：</label>
+						<label class="col-sm-4 control-label-content">{$result.member_email}</label>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-1 control-label">注册日期：</label>
+						<label class="col-sm-4 control-label-content"><?php echo  date('Y-m-d H:i:s',$result['member_time']); ?></label>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-1"></div>
+	<div class="col-sm-9">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<div class="panel-title">推广资讯</div>
+			</div>
+			<div class="panel-body">
+				<form role="form" class="form-horizontal">
+					<div class="form-group">
+						<label class="col-sm-1 control-label">推荐人：</label>
+						<label class="col-sm-5 control-label-content">{$result.securities_id}</label>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<include file="Public:footer" />

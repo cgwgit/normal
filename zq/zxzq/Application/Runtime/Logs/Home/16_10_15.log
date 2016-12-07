@@ -1,0 +1,1519 @@
+[ 2016-10-15T15:53:51+08:00 ] ::1 /zxsq1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T15:54:07+08:00 ] ::1 /zxsq1/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` WHERE ( username = 'mahongwei' ) LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: loginpwd D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: loginpwd D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: userid D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T15:54:08+08:00 ] ::1 /zxsq1/index.php/Home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1356:View 'scoredb.tb_total' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_total`
+ERR: 1356:View 'scoredb.tb_total' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_total`
+
+[ 2016-10-15T15:55:22+08:00 ] ::1 /zxsq1/index.php/Home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined index: maichubao D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined index: maichubao D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] Division by zero D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 141 行.
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 147 行.
+NOTIC: [8] Undefined index: quanburenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 154 行.
+NOTIC: [8] Undefined index: jinrimaichubao D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 160 行.
+NOTIC: [8] Undefined index: jinrimaichubao D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 166 行.
+NOTIC: [8] Undefined index: maichubao D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 173 行.
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 179 行.
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T15:55:32+08:00 ] ::1 /zxsq1/index.php/Home/Show/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1356:View 'scoredb.tb_admin' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_admin`
+ERR: 1356:View 'scoredb.tb_admin' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_admin`
+
+[ 2016-10-15T15:56:16+08:00 ] ::1 /zxsq1/index.php/Home/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined index: maichubao D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined index: maichubao D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] Division by zero D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 141 行.
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 147 行.
+NOTIC: [8] Undefined index: quanburenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 154 行.
+NOTIC: [8] Undefined index: jinrimaichubao D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 160 行.
+NOTIC: [8] Undefined index: jinrimaichubao D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 166 行.
+NOTIC: [8] Undefined index: maichubao D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 173 行.
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 179 行.
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T15:56:18+08:00 ] ::1 /zxsq1/index.php/Home/Show/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1356:View 'scoredb.tb_admin' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_admin`
+ERR: 1356:View 'scoredb.tb_admin' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_admin`
+
+[ 2016-10-15T15:56:43+08:00 ] ::1 /zxsq1/index.php/Home/Show/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `member` LIMIT 0,10   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 84 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 87 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 90 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 93 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 84 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 87 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 90 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 93 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 84 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 87 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 90 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 93 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 84 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 87 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 90 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 93 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 84 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 87 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 90 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 93 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 84 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 87 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 90 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 93 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 84 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 87 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 90 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 93 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 84 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 87 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 90 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 93 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 84 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 87 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 90 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 93 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 84 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 87 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 90 行.
+NOTIC: [8] Undefined index: status D:\WWW\zxsq1\Application\Home\Controller\ShowController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 223 行.
+NOTIC: [8] Undefined index: bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: declaration_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 225 行.
+NOTIC: [8] Undefined index: declaration_price D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 226 行.
+NOTIC: [8] Undefined index: declaration_date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 227 行.
+NOTIC: [8] Undefined index: real_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 228 行.
+NOTIC: [8] Undefined index: amount D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 229 行.
+NOTIC: [8] Undefined index: date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 230 行.
+NOTIC: [8] Undefined index: banktransaction D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 231 行.
+NOTIC: [8] Undefined index: name D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 223 行.
+NOTIC: [8] Undefined index: bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: declaration_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 225 行.
+NOTIC: [8] Undefined index: declaration_price D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 226 行.
+NOTIC: [8] Undefined index: declaration_date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 227 行.
+NOTIC: [8] Undefined index: real_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 228 行.
+NOTIC: [8] Undefined index: amount D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 229 行.
+NOTIC: [8] Undefined index: date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 230 行.
+NOTIC: [8] Undefined index: banktransaction D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 231 行.
+NOTIC: [8] Undefined index: name D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 223 行.
+NOTIC: [8] Undefined index: bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: declaration_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 225 行.
+NOTIC: [8] Undefined index: declaration_price D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 226 行.
+NOTIC: [8] Undefined index: declaration_date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 227 行.
+NOTIC: [8] Undefined index: real_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 228 行.
+NOTIC: [8] Undefined index: amount D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 229 行.
+NOTIC: [8] Undefined index: date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 230 行.
+NOTIC: [8] Undefined index: banktransaction D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 231 行.
+NOTIC: [8] Undefined index: name D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 223 行.
+NOTIC: [8] Undefined index: bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: declaration_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 225 行.
+NOTIC: [8] Undefined index: declaration_price D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 226 行.
+NOTIC: [8] Undefined index: declaration_date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 227 行.
+NOTIC: [8] Undefined index: real_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 228 行.
+NOTIC: [8] Undefined index: amount D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 229 行.
+NOTIC: [8] Undefined index: date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 230 行.
+NOTIC: [8] Undefined index: banktransaction D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 231 行.
+NOTIC: [8] Undefined index: name D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 223 行.
+NOTIC: [8] Undefined index: bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: declaration_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 225 行.
+NOTIC: [8] Undefined index: declaration_price D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 226 行.
+NOTIC: [8] Undefined index: declaration_date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 227 行.
+NOTIC: [8] Undefined index: real_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 228 行.
+NOTIC: [8] Undefined index: amount D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 229 行.
+NOTIC: [8] Undefined index: date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 230 行.
+NOTIC: [8] Undefined index: banktransaction D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 231 行.
+NOTIC: [8] Undefined index: name D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 223 行.
+NOTIC: [8] Undefined index: bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: declaration_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 225 行.
+NOTIC: [8] Undefined index: declaration_price D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 226 行.
+NOTIC: [8] Undefined index: declaration_date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 227 行.
+NOTIC: [8] Undefined index: real_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 228 行.
+NOTIC: [8] Undefined index: amount D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 229 行.
+NOTIC: [8] Undefined index: date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 230 行.
+NOTIC: [8] Undefined index: banktransaction D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 231 行.
+NOTIC: [8] Undefined index: name D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 223 行.
+NOTIC: [8] Undefined index: bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: declaration_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 225 行.
+NOTIC: [8] Undefined index: declaration_price D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 226 行.
+NOTIC: [8] Undefined index: declaration_date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 227 行.
+NOTIC: [8] Undefined index: real_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 228 行.
+NOTIC: [8] Undefined index: amount D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 229 行.
+NOTIC: [8] Undefined index: date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 230 行.
+NOTIC: [8] Undefined index: banktransaction D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 231 行.
+NOTIC: [8] Undefined index: name D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 223 行.
+NOTIC: [8] Undefined index: bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: declaration_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 225 行.
+NOTIC: [8] Undefined index: declaration_price D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 226 行.
+NOTIC: [8] Undefined index: declaration_date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 227 行.
+NOTIC: [8] Undefined index: real_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 228 行.
+NOTIC: [8] Undefined index: amount D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 229 行.
+NOTIC: [8] Undefined index: date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 230 行.
+NOTIC: [8] Undefined index: banktransaction D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 231 行.
+NOTIC: [8] Undefined index: name D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 223 行.
+NOTIC: [8] Undefined index: bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: declaration_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 225 行.
+NOTIC: [8] Undefined index: declaration_price D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 226 行.
+NOTIC: [8] Undefined index: declaration_date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 227 行.
+NOTIC: [8] Undefined index: real_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 228 行.
+NOTIC: [8] Undefined index: amount D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 229 行.
+NOTIC: [8] Undefined index: date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 230 行.
+NOTIC: [8] Undefined index: banktransaction D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 231 行.
+NOTIC: [8] Undefined index: name D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 223 行.
+NOTIC: [8] Undefined index: bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: declaration_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 225 行.
+NOTIC: [8] Undefined index: declaration_price D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 226 行.
+NOTIC: [8] Undefined index: declaration_date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 227 行.
+NOTIC: [8] Undefined index: real_num D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 228 行.
+NOTIC: [8] Undefined index: amount D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 229 行.
+NOTIC: [8] Undefined index: date D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 230 行.
+NOTIC: [8] Undefined index: banktransaction D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-15T15:56:53+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined index: maichubao D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined index: maichubao D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] Division by zero D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 141 行.
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 147 行.
+NOTIC: [8] Undefined index: quanburenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 154 行.
+NOTIC: [8] Undefined index: jinrimaichubao D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 160 行.
+NOTIC: [8] Undefined index: jinrimaichubao D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 166 行.
+NOTIC: [8] Undefined index: maichubao D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 173 行.
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 179 行.
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-15T15:56:53+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `member` LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined index: maichubao D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Undefined index: maichubao D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] Division by zero D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 141 行.
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 147 行.
+NOTIC: [8] Undefined index: quanburenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 154 行.
+NOTIC: [8] Undefined index: jinrimaichubao D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 160 行.
+NOTIC: [8] Undefined index: jinrimaichubao D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 166 行.
+NOTIC: [8] Undefined index: maichubao D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 173 行.
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 179 行.
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-15T18:06:53+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 141 行.
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T18:09:45+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 141 行.
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-15T18:11:43+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 141 行.
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T18:21:43+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 141 行.
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 147 行.
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 179 行.
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T18:21:44+08:00 ] ::1 /zxsq1/index.php/Home/Show/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_new` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_new` LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_new` LIMIT 0,10   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T18:21:55+08:00 ] ::1 /zxsq1/index.php/Home/Show/index?name=%E8%83%A1%E7%88%BD&bankcard=&banktransaction=&declaration_price1=&declaration_price2=&date=&sub=%E6%9F%A5%E8%AF%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_new` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_new` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_new` WHERE ( 1 ) LIMIT 0,10   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T18:22:40+08:00 ] ::1 /zxsq1/index.php/Home/Show/index?name=%E8%83%A1%E7%88%BD&bankcard=&banktransaction=&declaration_price1=&declaration_price2=&date=&sub=%E6%9F%A5%E8%AF%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_new` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_new` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_new` WHERE ( 1 ) LIMIT 0,10   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+NOTIC: [8] Undefined index: member_bankcard D:\WWW\zxsq1\Application\Runtime\Cache\Home\3b6891c7cb83d3cb00b92e5716eff3af.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-15T18:23:25+08:00 ] ::1 /zxsq1/index.php/Home/Show/index?name=%E8%83%A1%E7%88%BD&bankcard=&banktransaction=&declaration_price1=&declaration_price2=&date=&sub=%E6%9F%A5%E8%AF%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_new` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_new` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_new` WHERE ( 1 ) LIMIT 0,10   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-15T18:24:29+08:00 ] ::1 /zxsq1/index.php/Home/Show/index?name=%E8%83%A1%E7%88%BD&bankcard=&banktransaction=&declaration_price1=&declaration_price2=&date=&sub=%E6%9F%A5%E8%AF%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_new` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_new` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_new` WHERE ( 1 ) LIMIT 0,10   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T18:24:34+08:00 ] ::1 /zxsq1/index.php/Home/Show/index/name/%E8%83%A1%E7%88%BD/sub/%E6%9F%A5%E8%AF%A2/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_new` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_new` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_new` WHERE ( 1 ) LIMIT 10,10   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T18:24:42+08:00 ] ::1 /zxsq1/index.php/Home/Show/index?name=%E8%83%A1%E7%88%BD&bankcard=&banktransaction=&declaration_price1=&declaration_price2=&date=&sub=%E6%9F%A5%E8%AF%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_new` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_new` WHERE ( 1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_new` WHERE ( 1 ) LIMIT 0,10   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-15T18:24:51+08:00 ] ::1 /zxsq1/index.php/Home/Show/index?name=&bankcard=6228483738181232374&banktransaction=&declaration_price1=&declaration_price2=&date=&sub=%E6%9F%A5%E8%AF%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_new` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_new` WHERE ( 1 and bankcard =6228483738181232374 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_new` WHERE ( 1 and bankcard =6228483738181232374 ) LIMIT 0,10   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T18:28:44+08:00 ] ::1 /zxsq1/index.php/Home/Show/index?name=&bankcard=6228483738181232374&banktransaction=&declaration_price1=&declaration_price2=&date=&sub=%E6%9F%A5%E8%AF%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_new` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_new` WHERE ( 1 and bankcard =6228483738181232374 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_new` WHERE ( 1 and bankcard =6228483738181232374 ) LIMIT 0,10   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T18:28:46+08:00 ] ::1 /zxsq1/index.php/Home/Show/index?name=&bankcard=6228483738181232374&banktransaction=&declaration_price1=&declaration_price2=&date=&sub=%E6%9F%A5%E8%AF%A2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_new` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_new` WHERE ( 1 and bankcard =6228483738181232374 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_new` WHERE ( 1 and bankcard =6228483738181232374 ) LIMIT 0,10   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-15T18:28:50+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+
+[ 2016-10-15T18:29:17+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0040s ]
+ERR: 1054:Unknown column 'allscores' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tb_variable` WHERE ( name =allscores ) LIMIT 1  
+ERR: 1054:Unknown column 'allscores' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tb_variable` WHERE ( name =allscores ) LIMIT 1  
+
+[ 2016-10-15T18:30:17+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+
+[ 2016-10-15T18:30:40+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+ERR: 1054:Unknown column 'allscores' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tb_variable` WHERE ( name = allscores ) LIMIT 1  
+ERR: 1054:Unknown column 'allscores' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tb_variable` WHERE ( name = allscores ) LIMIT 1  
+
+[ 2016-10-15T18:32:51+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+ERR: 1054:Unknown column 'allscores' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tb_variable` WHERE ( name = allscores ) LIMIT 1  
+ERR: 1054:Unknown column 'allscores' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tb_variable` WHERE ( name = allscores ) LIMIT 1  
+
+[ 2016-10-15T18:32:53+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0040s ]
+ERR: 1054:Unknown column 'allscores' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tb_variable` WHERE ( name = allscores ) LIMIT 1  
+ERR: 1054:Unknown column 'allscores' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tb_variable` WHERE ( name = allscores ) LIMIT 1  
+
+[ 2016-10-15T18:33:58+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0050s ]
+
+[ 2016-10-15T18:34:15+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 141 行.
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 147 行.
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T18:35:16+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 141 行.
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-15T18:35:21+08:00 ] ::1 /zxsq1/index.php/Home/Show/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_new` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_new` LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_new` LIMIT 0,10   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T18:35:31+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 141 行.
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T18:42:55+08:00 ] ::1 /zxsq1/index.php/Home/Show/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_new` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_new` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_new` LIMIT 0,10   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T18:42:59+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0060s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '('Y-m-d H:i:s',member_time) = '2016-06-15'' at line 1
+ [ SQL语句 ] : SELECT * FROM `member` WHERE data('Y-m-d H:i:s',member_time) = '2016-06-15' 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '('Y-m-d H:i:s',member_time) = '2016-06-15'' at line 1
+ [ SQL语句 ] : SELECT * FROM `member` WHERE data('Y-m-d H:i:s',member_time) = '2016-06-15' 
+
+[ 2016-10-15T18:43:13+08:00 ] ::1 /zxsq1/index.php/Home/Show/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_new` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_new` LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_new` LIMIT 0,10   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T18:43:15+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0060s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'member_time) = '2016-06-15'' at line 1
+ [ SQL语句 ] : SELECT * FROM `member` WHERE date('Y-m-d H:i:s',member_time) = '2016-06-15' 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'member_time) = '2016-06-15'' at line 1
+ [ SQL语句 ] : SELECT * FROM `member` WHERE date('Y-m-d H:i:s',member_time) = '2016-06-15' 
+
+[ 2016-10-15T18:44:26+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0070s ]
+ERR: 1305:FUNCTION scoredb.strtotime does not exist
+ [ SQL语句 ] : SELECT * FROM `member` WHERE substr(strtotime(member_time),0,10) = '2016-06-15' 
+ERR: 1305:FUNCTION scoredb.strtotime does not exist
+ [ SQL语句 ] : SELECT * FROM `member` WHERE substr(strtotime(member_time),0,10) = '2016-06-15' 
+
+[ 2016-10-15T18:46:33+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'member_time)) = '2016-10-15'' at line 1
+ [ SQL语句 ] : SELECT * FROM `member` WHERE date('Y-m-d',member_time)) = '2016-10-15' 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'member_time)) = '2016-10-15'' at line 1
+ [ SQL语句 ] : SELECT * FROM `member` WHERE date('Y-m-d',member_time)) = '2016-10-15' 
+
+[ 2016-10-15T18:47:26+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `member` WHERE substr(FROM_UNIXTIME(member_time),0,10) = '2016-06-15'  [ RunTime:0.0050s ]
+
+[ 2016-10-15T18:48:12+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `member` WHERE substr(FROM_UNIXTIME(member_time),0,10) = '2016-9-28'  [ RunTime:0.0050s ]
+
+[ 2016-10-15T18:48:13+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `member` WHERE substr(FROM_UNIXTIME(member_time),0,10) = '2016-9-28'  [ RunTime:0.0060s ]
+
+[ 2016-10-15T18:48:13+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `member` WHERE substr(FROM_UNIXTIME(member_time),0,10) = '2016-9-28'  [ RunTime:0.0070s ]
+
+[ 2016-10-15T18:48:15+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `member` WHERE substr(FROM_UNIXTIME(member_time),0,10) = '2016-9-28'  [ RunTime:0.0070s ]
+
+[ 2016-10-15T18:53:16+08:00 ] ::1 /zxsq1/index.php/Home/Show/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_new` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_new` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_new` LIMIT 0,10   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T18:53:17+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `member` WHERE substr(FROM_UNIXTIME(member_time),0,10) = '2016-9-28'  [ RunTime:0.0060s ]
+
+[ 2016-10-15T18:53:32+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `member` WHERE substr(FROM_UNIXTIME(member_time),0,10) = '2016-9-28'  [ RunTime:0.0050s ]
+
+[ 2016-10-15T18:54:17+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `member` WHERE substr(FROM_UNIXTIME(member_time),0,10) = '2016-9-28'  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 141 行.
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T18:54:48+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `member` WHERE substr(FROM_UNIXTIME(member_time),0,10) = '2016-09-23'  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 141 行.
+NOTIC: [8] Undefined index: xinzengrenyuan D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T18:57:38+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `member` WHERE left(FROM_UNIXTIME(member_time),10) = '2016-09-23'  [ RunTime:0.0050s ]
+
+[ 2016-10-15T18:58:18+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `member` WHERE left(FROM_UNIXTIME(member_time),10) = '2016-09-23'  [ RunTime:0.0060s ]
+
+[ 2016-10-15T18:59:52+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0050s ]
+
+[ 2016-10-15T18:59:53+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0060s ]
+
+[ 2016-10-15T19:00:23+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `member` WHERE left(FROM_UNIXTIME(member_time),10) = '2016-10-15'  [ RunTime:0.0070s ]
+
+[ 2016-10-15T19:02:52+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `member` WHERE left(FROM_UNIXTIME(member_time),10) = '2016-10-15'  [ RunTime:0.0070s ]
+
+[ 2016-10-15T19:03:06+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `member` WHERE left(FROM_UNIXTIME(member_time),10) = '2016-10-15'  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: member_time D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 141 行.
+NOTIC: [8] Undefined index: member_time D:\WWW\zxsq1\Application\Runtime\Cache\Home\ccea6a400660ce54d68cab67b9f68781.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T19:03:54+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: shengyu D:\WWW\zxsq1\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` WHERE left(FROM_UNIXTIME(member_time),10) = '2016-10-15' LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-15T19:05:42+08:00 ] ::1 /zxsq1/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_user` LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` WHERE left(FROM_UNIXTIME(member_time),10) = '2016-10-15' LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_total` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_total` LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

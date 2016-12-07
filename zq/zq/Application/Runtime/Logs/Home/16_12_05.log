@@ -1,0 +1,296 @@
+[ 2016-12-05T21:02:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.291768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038633s ]
+NOTIC: [8] Undefined index: userData E:\xiangmu\zq\zq\Application\Home\Controller\IndexController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000648s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.828857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.829290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.062896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.063241s ]
+
+[ 2016-12-05T21:02:24+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002586s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004870s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.070358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.070767s ]
+
+[ 2016-12-05T21:02:34+08:00 ] 127.0.0.1 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003721s ]
+SQL: SHOW COLUMNS FROM `zxzq_user` [ RunTime:0.4011s ]
+SQL: SELECT * FROM `zxzq_user` WHERE `username` = 'admin' AND `password` = '10470c3b4b1fed12c3baac014be15fac67c6e815' LIMIT 1   [ RunTime:0.0896s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xiangmu\zq\zq\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-12-05T21:02:38+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003966s ]
+SQL: SHOW COLUMNS FROM `zxzq_goods` [ RunTime:0.3256s ]
+SQL: SELECT * FROM `zxzq_goods` ORDER BY securities ASC  [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000568s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000904s ]
+NOTIC: [8] Undefined index: id E:\xiangmu\zq\zq\Application\Runtime\Cache\Home\a09d7eca077138a78f01ca30083ac387.php 第 81 行.
+NOTIC: [8] Undefined index: id E:\xiangmu\zq\zq\Application\Runtime\Cache\Home\a09d7eca077138a78f01ca30083ac387.php 第 87 行.
+NOTIC: [8] Undefined variable: show E:\xiangmu\zq\zq\Application\Runtime\Cache\Home\a09d7eca077138a78f01ca30083ac387.php 第 206 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.838036s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.838517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002414s ]
+
+[ 2016-12-05T21:02:52+08:00 ] 127.0.0.1 /index.php/Home/Table/index?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013302s ]
+SQL: SHOW COLUMNS FROM `zxzq_wallet` [ RunTime:0.2208s ]
+SQL: select table_comment  from INFORMATION_SCHEMA.TABLES where table_name like'zxzq_%' and TABLE_SCHEMA='scoredb' [ RunTime:0.4786s ]
+NOTIC: [8] Undefined index: table E:\xiangmu\zq\zq\Application\Home\Controller\TableController.class.php 第 13 行.
+SQL: SELECT `zxzq_wallet`.`id` as 序号,`member`.`member_name` as 用户名,`member`.`member_bankcard` as 银行卡号,`member`.`member_bankname` as 银行名称,`zxzq_wallet`.`money` as 金额,`zxzq_wallet`.`frozen` as 冻结金额,`zxzq_wallet`.`status` as 状态 FROM `zxzq_wallet` INNER JOIN `member` on `zxzq_wallet`.`memberid`=`member`.`member_id`   [ RunTime:0.3085s ]
+SQL: SELECT `zxzq_wallet`.`id` as 序号,`member`.`member_name` as 用户名,`member`.`member_bankcard` as 银行卡号,`member`.`member_bankname` as 银行名称,`zxzq_wallet`.`money` as 金额,`zxzq_wallet`.`frozen` as 冻结金额,`zxzq_wallet`.`status` as 状态 FROM `zxzq_wallet` INNER JOIN `member` on `zxzq_wallet`.`memberid`=`member`.`member_id`  LIMIT 0,10   [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000595s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.167976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.168401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004327s ]
+
+[ 2016-12-05T21:02:52+08:00 ] 127.0.0.1 /index.php/Home/Table/index?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004446s ]
+SQL: SHOW COLUMNS FROM `zxzq_wallet` [ RunTime:0.0488s ]
+SQL: select table_comment  from INFORMATION_SCHEMA.TABLES where table_name like'zxzq_%' and TABLE_SCHEMA='scoredb' [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: table E:\xiangmu\zq\zq\Application\Home\Controller\TableController.class.php 第 13 行.
+SQL: SELECT `zxzq_wallet`.`id` as 序号,`member`.`member_name` as 用户名,`member`.`member_bankcard` as 银行卡号,`member`.`member_bankname` as 银行名称,`zxzq_wallet`.`money` as 金额,`zxzq_wallet`.`frozen` as 冻结金额,`zxzq_wallet`.`status` as 状态 FROM `zxzq_wallet` INNER JOIN `member` on `zxzq_wallet`.`memberid`=`member`.`member_id`   [ RunTime:0.0044s ]
+SQL: SELECT `zxzq_wallet`.`id` as 序号,`member`.`member_name` as 用户名,`member`.`member_bankcard` as 银行卡号,`member`.`member_bankname` as 银行名称,`zxzq_wallet`.`money` as 金额,`zxzq_wallet`.`frozen` as 冻结金额,`zxzq_wallet`.`status` as 状态 FROM `zxzq_wallet` INNER JOIN `member` on `zxzq_wallet`.`memberid`=`member`.`member_id`  LIMIT 0,10   [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000473s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000747s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004783s ]
+
+[ 2016-12-05T21:02:53+08:00 ] 127.0.0.1 /index.php/Home/Financial/userWalletlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004124s ]
+NOTIC: [8] Undefined index: member_name E:\xiangmu\zq\zq\Application\Home\Controller\FinancialController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: where E:\xiangmu\zq\zq\Application\Home\Controller\FinancialController.class.php 第 68 行.
+ERR: 1146:Table 'scoredb.zxzqpd_log' doesn't exist
+ [ SQL语句 ] : SELECT count(*) as sum FROM `zxzqpd_log` AS wr,`member` as m WHERE m.member_name = wr.zqlg_member_name
+ERR: 1146:Table 'scoredb.zxzqpd_log' doesn't exist
+ [ SQL语句 ] : SELECT count(*) as sum FROM `zxzqpd_log` AS wr,`member` as m WHERE m.member_name = wr.zqlg_member_name
+
+[ 2016-12-05T21:02:59+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002193s ]
+SQL: SHOW COLUMNS FROM `zxzq_goods` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `zxzq_goods` ORDER BY securities ASC  [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000560s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000796s ]
+NOTIC: [8] Undefined index: id E:\xiangmu\zq\zq\Application\Runtime\Cache\Home\a09d7eca077138a78f01ca30083ac387.php 第 81 行.
+NOTIC: [8] Undefined index: id E:\xiangmu\zq\zq\Application\Runtime\Cache\Home\a09d7eca077138a78f01ca30083ac387.php 第 87 行.
+NOTIC: [8] Undefined variable: show E:\xiangmu\zq\zq\Application\Runtime\Cache\Home\a09d7eca077138a78f01ca30083ac387.php 第 206 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002714s ]
+
+[ 2016-12-05T21:03:01+08:00 ] 127.0.0.1 /index.php/Home/Index/addGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002566s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\xiangmu\zq\zq\Application\Home\Controller\IndexController.class.php on line 29 and defined E:\xiangmu\zq\zq\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\xiangmu\zq\zq\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\xiangmu\zq\zq\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\xiangmu\zq\zq\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000395s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000664s ]
+NOTIC: [8] Undefined index: id E:\xiangmu\zq\zq\Application\Runtime\Cache\Home\d81e04b821a68b57774701c9e44c7053.php 第 81 行.
+NOTIC: [8] Undefined index: id E:\xiangmu\zq\zq\Application\Runtime\Cache\Home\d81e04b821a68b57774701c9e44c7053.php 第 87 行.
+NOTIC: [8] Undefined variable: edit_info E:\xiangmu\zq\zq\Application\Runtime\Cache\Home\d81e04b821a68b57774701c9e44c7053.php 第 231 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.165573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.165950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005256s ]
+
+[ 2016-12-05T21:03:05+08:00 ] 127.0.0.1 /index.php/Home/Index/scale.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002183s ]
+SQL: SHOW COLUMNS FROM `zxzq_rate` [ RunTime:0.1027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zxzq_rate` LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `zxzq_rate` ORDER BY ctime DESC LIMIT 0,20   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000456s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000709s ]
+NOTIC: [8] Undefined index: id E:\xiangmu\zq\zq\Application\Runtime\Cache\Home\e79032e78d2152fcb0de6e8c10e8b00e.php 第 81 行.
+NOTIC: [8] Undefined index: id E:\xiangmu\zq\zq\Application\Runtime\Cache\Home\e79032e78d2152fcb0de6e8c10e8b00e.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004282s ]
+
+[ 2016-12-05T21:03:11+08:00 ] 127.0.0.1 /index.php/Home/UserCenter/userFinance.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002418s ]
+NOTIC: [8] Undefined index: username E:\xiangmu\zq\zq\Application\Home\Controller\UserCenterController.class.php 第 246 行.
+ERR: 1146:Table 'scoredb.view_delete' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `view_delete`
+ERR: 1146:Table 'scoredb.view_delete' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `view_delete`
+
+[ 2016-12-05T21:03:17+08:00 ] 127.0.0.1 /index.php/Home/Financial/useRecharge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+NOTIC: [8] Undefined index: username E:\xiangmu\zq\zq\Application\Home\Controller\FinancialController.class.php 第 23 行.
+NOTIC: [8] Undefined variable: where E:\xiangmu\zq\zq\Application\Home\Controller\FinancialController.class.php 第 24 行.
+NOTIC: [8] Undefined index: applytime E:\xiangmu\zq\zq\Application\Home\Controller\FinancialController.class.php 第 29 行.
+NOTIC: [8] Undefined index: status E:\xiangmu\zq\zq\Application\Home\Controller\FinancialController.class.php 第 31 行.
+SQL: select count(*) as sum FROM `zxzq_wallet_record` AS wr, `member` as m WHERE m.member_id = wr.memberid [ RunTime:0.0444s ]
+SQL: SELECT wr.id, wr.memberid, wr.paymoney, wr.paypmoney, wr.payrmoney, wr.paytime, wr.payid, wr.paytype, wr.paysn, wr.paystatus, m.member_name FROM `zxzq_wallet_record` AS wr, `member` as m WHERE m.member_id = wr.memberid ORDER BY wr.id DESC LIMIT 0,10 [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000847s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001239s ]
+NOTIC: [8] Undefined index: id E:\xiangmu\zq\zq\Application\Runtime\Cache\Home\9ab0663d9703b3dd8e803f0ce30e1a1a.php 第 81 行.
+NOTIC: [8] Undefined index: id E:\xiangmu\zq\zq\Application\Runtime\Cache\Home\9ab0663d9703b3dd8e803f0ce30e1a1a.php 第 87 行.
+NOTIC: [8] Use of undefined constant selected - assumed 'selected' E:\xiangmu\zq\zq\Application\Runtime\Cache\Home\9ab0663d9703b3dd8e803f0ce30e1a1a.php 第 191 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002477s ]
+
+[ 2016-12-05T21:03:21+08:00 ] 127.0.0.1 /index.php/Home/Financial/userWalletlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003121s ]
+NOTIC: [8] Undefined index: member_name E:\xiangmu\zq\zq\Application\Home\Controller\FinancialController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: where E:\xiangmu\zq\zq\Application\Home\Controller\FinancialController.class.php 第 68 行.
+ERR: 1146:Table 'scoredb.zxzqpd_log' doesn't exist
+ [ SQL语句 ] : SELECT count(*) as sum FROM `zxzqpd_log` AS wr,`member` as m WHERE m.member_name = wr.zqlg_member_name
+ERR: 1146:Table 'scoredb.zxzqpd_log' doesn't exist
+ [ SQL语句 ] : SELECT count(*) as sum FROM `zxzqpd_log` AS wr,`member` as m WHERE m.member_name = wr.zqlg_member_name
+
+[ 2016-12-05T21:03:32+08:00 ] 127.0.0.1 /index.php/Home/Table/index?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004004s ]
+SQL: SHOW COLUMNS FROM `zxzq_wallet` [ RunTime:0.0542s ]
+SQL: select table_comment  from INFORMATION_SCHEMA.TABLES where table_name like'zxzq_%' and TABLE_SCHEMA='scoredb' [ RunTime:0.0108s ]
+NOTIC: [8] Undefined index: table E:\xiangmu\zq\zq\Application\Home\Controller\TableController.class.php 第 13 行.
+SQL: SELECT `zxzq_wallet`.`id` as 序号,`member`.`member_name` as 用户名,`member`.`member_bankcard` as 银行卡号,`member`.`member_bankname` as 银行名称,`zxzq_wallet`.`money` as 金额,`zxzq_wallet`.`frozen` as 冻结金额,`zxzq_wallet`.`status` as 状态 FROM `zxzq_wallet` INNER JOIN `member` on `zxzq_wallet`.`memberid`=`member`.`member_id`   [ RunTime:0.0043s ]
+SQL: SELECT `zxzq_wallet`.`id` as 序号,`member`.`member_name` as 用户名,`member`.`member_bankcard` as 银行卡号,`member`.`member_bankname` as 银行名称,`zxzq_wallet`.`money` as 金额,`zxzq_wallet`.`frozen` as 冻结金额,`zxzq_wallet`.`status` as 状态 FROM `zxzq_wallet` INNER JOIN `member` on `zxzq_wallet`.`memberid`=`member`.`member_id`  LIMIT 0,10   [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000390s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000628s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003131s ]
+

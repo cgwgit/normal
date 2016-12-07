@@ -1,0 +1,139 @@
+<include file="Public:header" />
+<div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-9">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<div class="panel-title"><i class="fa fa-bar-chart"></i>&nbsp;&nbsp;未设置网络位置用户</div>
+			</div>
+			<div class="panel-body">
+				<table class="table table-small-font table-bordered table-striped" cellspacing="0">
+					<thead>
+						<tr>
+							<th>序号</th>
+							<th>用户名</th>
+							<th>注册时间</th>
+							<th>持有证券数量</th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+                                            <?php foreach($result as $v){ ?>
+						<tr>
+							<td>{$v.member_id}</td>
+							<td>{$v.member_name}</td>
+							<td><?php echo date('Y-m-d H:i:s',$v['member_time']); ?></td>
+							<td><?php echo $v['securities'] ? $v['securities'] : '0.00'; ?></td>
+							<td>
+								<div class="form-group">
+									<div class="col-sm-2">
+										<a onclick="ff(<?php echo $v['member_id'] ?>)" name='btn' id='{$v.member_id}' class="btn btn-info btn-sm btn-icon icon-left">
+											设置网络位置
+										</a>
+									</div>
+								</div>
+							</td>
+						</tr>
+                                                <?php } ?>
+					</tbody>
+				</table>
+			</div>
+			<div class="row"><div class="col-xs-6"><div class="dataTables_info" id="example-1_info" role="status" aria-live="polite"></div></div><div class="col-xs-6"><div class="dataTables_paginate paging_simple_numbers" id="example-1_paginate"><nav>{$show}</nav></div></div></div>
+		</div>
+	</div>
+</div>
+<script>
+    function ff(e){
+//        var e=$id;
+        $('#mid').val(e);
+        $.ajax({
+            url:"__MODULE__/Team/edit",
+            data:{
+                id:e
+            },
+            type:"post",
+            dataType:"json",
+            success:function(result) {
+                if(result.code==1){
+                    alert(result.message);
+                    return false;
+                }
+                $("#userlist").html(result.t);
+                $("#place").html(result.r);
+                $('#modal-4').modal('show', {backdrop: 'static'});
+                
+                $('#userlist').unbind('change');
+                
+                $('#userlist').change(function(){
+                    var member_id = $(this).val();
+                    var mid = $('#mid').val();
+                    $.post('__MODULE__/Team/getUserWZ', {member_id : member_id, id : mid}, function(res){
+                        $('#place').html(res.t);
+                        $('#fid').val(res.fid);
+                    }, 'json');
+                });
+            }
+        });
+        
+        $('#tsubmit').click(function(){
+            var upMemberId = $('#fid').val();
+            var newNetworkTeam = $('#place').val();
+            var newUserId = $('#mid').val();
+            
+            $.post('__MODULE__/Team/setNetTeamWork', {upMemberId : upMemberId, newNetworkTeam : newNetworkTeam, newUserId : newUserId}, function(res){
+                if(res.code != 0){
+                    alert(res.message);
+                }else{
+                    alert(res.message);
+                    window.location.reload();
+                }
+            }, 'json');
+            
+            return false;
+        });
+    }
+    
+</script>        
+<include file="Public:footer" />
+<!-- Modal 4 (Confirm)-->
+<div class="modal fade" id="modal-4" data-backdrop="static">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">设置用户网络位置</h4>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-md-6">						
+						<div class="form-group">
+							<label for="field-1" class="control-label">上级用户：</label>							
+							<select class="form-control" id='userlist'>
+								<option>username1</option>
+								<option>username2</option>
+								<option>username3</option>
+								<option>username4</option>
+								<option>username5</option>
+							</select>
+						</div>							
+					</div>					
+					<div class="col-md-6">						
+						<div class="form-group">
+							<label for="field-2" class="control-label" >网络位置：</label>							
+							<select class="form-control" id='place'>
+								<option>左区</option>
+								<option>右区</option>
+							</select>
+						</div>					
+					</div>
+				</div>			
+			</div>
+                    <input type="hidden" value="" id="mid">
+                    <input type="hidden" value="" id="fid">
+			<div class="modal-footer">
+				<button type="button" class="btn btn-white" data-dismiss="modal">取消</button>
+				<button type="button" class="btn btn-info" data-dismiss="modal" id="tsubmit">保存并关闭</button>
+			</div>
+		</div>
+	</div>
+</div>

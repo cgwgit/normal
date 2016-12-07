@@ -1,0 +1,61 @@
+<include file="Public:header" />
+<div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-9">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title"><i class="fa fa-bar-chart"></i>&nbsp;&nbsp;账户充值明细</div>
+            </div>
+            <div class="panel-body">
+                <table cellspacing="0" class="table table-small-font table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>支付方式</th>
+                            <th>充值金额</th>
+                            <th>充值手续费</th>
+                            <th>实际付款金额</th>
+                            <th>付款时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php 
+                        if(isset($_GET['p'])){
+                        $p=$_GET['p'];
+                        $a=1+10*($p-1);
+                        }else{
+                        $a=1;}
+                        foreach($recharge as $v){ ?>
+                        <tr>
+                            <td><?php echo $a;$a++; ?>.</span></td>
+                            <td><?php
+                                switch ($v['paytype']) {
+                                case 1:
+                                echo "支付宝";
+                                break;
+                                case 2:
+                                echo "微信";
+                                break;
+                                case 3:
+                                echo "丰付支付";
+                                break;
+                                case 4:
+                                echo "证券提现";
+                                break;
+                                default:
+                                echo "购买证券";
+                                }
+                                ?></td>
+                            <td><?php echo $v['paymoney'] ? $v['paymoney'] : '0.00'; ?></td>
+                            <td><?php echo $v['paypmoney'] ? $v['paypmoney'] : '0.00'; ?></td>
+                            <td><?php echo $v['payrmoney'] ? $v['payrmoney'] : '0.00' ; ?></td>
+                            <td><?php echo $v['paytime']; ?></td>
+                            <?php } ?>
+                    </tbody>
+                </table>
+            </div>
+            <div class="row"><div class="col-xs-6"><div class="dataTables_info" id="example-1_info" role="status" aria-live="polite"></div></div><div class="col-xs-6"><div class="dataTables_paginate paging_simple_numbers" id="example-1_paginate">{$show}</div></div></div>
+        </div>
+    </div>
+</div>
+<include file="Public:footer" />
