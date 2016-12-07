@@ -1,0 +1,60 @@
+[ 2016-11-29T22:12:58+08:00 ] 127.0.0.1 /index.php/Home/Search/index
+ERR: 1054:Unknown column 'w.frozen' in 'field list'
+ [ SQL语句 ] : SELECT `m`.`member_name`,`m`.`member_bankname`,`m`.`member_bankcard`,`w`.`money`,`w`.`frozen`,`w`.`status`,`w`.`id` FROM `member` AS `m` INNER JOIN `zxzq_wallet` AS `w` ON `m`.`member_id`=`w`.`memberid`
+
+[ 2016-11-29T22:13:39+08:00 ] 127.0.0.1 /index.php/Home/Search/index/id/1
+ERR: 1054:Unknown column 'w.frozen' in 'field list'
+ [ SQL语句 ] : SELECT `m`.`member_name`,`m`.`member_bankname`,`m`.`member_bankcard`,`w`.`money`,`w`.`frozen`,`w`.`status`,`w`.`id` FROM `member` AS `m` INNER JOIN `zxzq_wallet` AS `w` ON `m`.`member_id`=`w`.`memberid`
+
+[ 2016-11-29T22:13:43+08:00 ] 127.0.0.1 /index.php/Home/Search/index/id/1
+ERR: 1054:Unknown column 'w.frozen' in 'field list'
+ [ SQL语句 ] : SELECT `m`.`member_name`,`m`.`member_bankname`,`m`.`member_bankcard`,`w`.`money`,`w`.`frozen`,`w`.`status`,`w`.`id` FROM `member` AS `m` INNER JOIN `zxzq_wallet` AS `w` ON `m`.`member_id`=`w`.`memberid`
+
+[ 2016-11-29T22:14:03+08:00 ] 127.0.0.1 /index.php/Home/Search/index/id/1
+ERR: 1054:Unknown column 'w.frozen' in 'field list'
+ [ SQL语句 ] : SELECT `m`.`member_name`,`m`.`member_bankname`,`m`.`member_bankcard`,`w`.`money`,`w`.`frozen`,`w`.`status`,`w`.`id` FROM `member` AS `m` INNER JOIN `zxzq_wallet` AS `w` ON `m`.`member_id`=`w`.`memberid`
+
+[ 2016-11-29T22:14:17+08:00 ] 127.0.0.1 /index.php/Home/Search/index/
+ERR: 1054:Unknown column 'w.frozen' in 'field list'
+ [ SQL语句 ] : SELECT `m`.`member_name`,`m`.`member_bankname`,`m`.`member_bankcard`,`w`.`money`,`w`.`frozen`,`w`.`status`,`w`.`id` FROM `member` AS `m` INNER JOIN `zxzq_wallet` AS `w` ON `m`.`member_id`=`w`.`memberid`
+
+[ 2016-11-29T22:14:19+08:00 ] 127.0.0.1 /index.php/Home/Search/index/id/1
+ERR: 1054:Unknown column 'w.frozen' in 'field list'
+ [ SQL语句 ] : SELECT `m`.`member_name`,`m`.`member_bankname`,`m`.`member_bankcard`,`w`.`money`,`w`.`frozen`,`w`.`status`,`w`.`id` FROM `member` AS `m` INNER JOIN `zxzq_wallet` AS `w` ON `m`.`member_id`=`w`.`memberid`
+
+[ 2016-11-29T22:14:24+08:00 ] 127.0.0.1 /index.php/Home/Search/index/
+ERR: 1054:Unknown column 'w.frozen' in 'field list'
+ [ SQL语句 ] : SELECT `m`.`member_name`,`m`.`member_bankname`,`m`.`member_bankcard`,`w`.`money`,`w`.`frozen`,`w`.`status`,`w`.`id` FROM `member` AS `m` INNER JOIN `zxzq_wallet` AS `w` ON `m`.`member_id`=`w`.`memberid`
+
+[ 2016-11-29T22:15:54+08:00 ] 127.0.0.1 /index.php/Home/Search/index
+ERR: 1054:Unknown column 'w.frozen' in 'field list'
+ [ SQL语句 ] : SELECT `m`.`member_name`,`m`.`member_bankname`,`m`.`member_bankcard`,`w`.`money`,`w`.`frozen`,`w`.`status`,`w`.`id` FROM `member` AS `m` INNER JOIN `zxzq_wallet` AS `w` ON `m`.`member_id`=`w`.`memberid`
+
+[ 2016-11-29T22:15:58+08:00 ] 127.0.0.1 /index.php/Home/Search/index
+ERR: 1054:Unknown column 'w.frozen' in 'field list'
+ [ SQL语句 ] : SELECT `m`.`member_name`,`m`.`member_bankname`,`m`.`member_bankcard`,`w`.`money`,`w`.`frozen`,`w`.`status`,`w`.`id` FROM `member` AS `m` INNER JOIN `zxzq_wallet` AS `w` ON `m`.`member_id`=`w`.`memberid`
+
+[ 2016-11-29T22:30:49+08:00 ] 127.0.0.1 /index.php/Home/Search/index
+ERR: 1054:Unknown column 'w.frozen' in 'field list'
+ [ SQL语句 ] : SELECT `m`.`member_name`,`m`.`member_bankname`,`m`.`member_bankcard`,`w`.`money`,`w`.`frozen`,`w`.`status`,`w`.`id` FROM `member` AS `m` INNER JOIN `zxzq_wallet` AS `w` ON `m`.`member_id`=`w`.`memberid`
+
+[ 2016-11-29T22:40:57+08:00 ] 127.0.0.1 /index.php/Home/Search/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'between2016-8-26and2016-12-1' at line 1
+ [ SQL语句 ] : select * from `zxzq_wallet` where `ctime` between2016-8-26and2016-12-1
+
+[ 2016-11-29T22:42:15+08:00 ] 127.0.0.1 /index.php/Home/Search/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'between2016-8-26 and 2016-12-1' at line 1
+ [ SQL语句 ] : select * from `zxzq_wallet` where `ctime` between2016-8-26 and 2016-12-1
+
+[ 2016-11-29T23:37:40+08:00 ] 127.0.0.1 /index.php/Home/Search/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2016-12-' at line 1
+ [ SQL语句 ] : select * from `zxzq_wallet` where left(`ctime`,10) between 2016-08-2and 2016-12-
+
+[ 2016-11-29T23:45:07+08:00 ] 127.0.0.1 /index.php/Home/Search/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"$stime"} and {"$etime"}' at line 1
+ [ SQL语句 ] : select * from `zxzq_wallet` where left(`ctime`,10) between {"$stime"} and {"$etime"}
+
+[ 2016-11-29T23:55:41+08:00 ] 127.0.0.1 /index.php/Home/Search/index/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2016-12-01 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `zxzq_wallet` WHERE ( left(`ctime`,10) between '2016-08-26' and '2016-12-01 ) 
+

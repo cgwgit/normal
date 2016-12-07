@@ -1,0 +1,43 @@
+[ 2016-06-19T00:32:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/home.html
+ERR: 非法操作:home
+
+[ 2016-06-19T08:30:25+08:00 ] 127.0.0.1 /index.php/Admin/Index/home.html
+ERR: 非法操作:home
+
+[ 2016-06-19T09:36:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/home.html
+ERR: 非法操作:home
+
+[ 2016-06-19T10:38:02+08:00 ] 127.0.0.1 /index.php/Admin/Test/test27
+ERR: 1146:Table 'db_oa.tp_student' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_student`
+
+[ 2016-06-19T15:45:33+08:00 ] 127.0.0.1 /index.php/Admin/Public/index.html
+ERR: 非法操作:index
+
+[ 2016-06-19T15:56:30+08:00 ] 127.0.0.1 /index.php/Admin/Public/index.html
+ERR: 非法操作:index
+
+[ 2016-06-19T16:17:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/home.html
+ERR: 非法操作:home
+
+[ 2016-06-19T16:18:45+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2016-06-19T16:21:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/home.html
+ERR: 非法操作:home
+
+[ 2016-06-19T16:21:10+08:00 ] 127.0.0.1 /index.php/Admin/Public/logout
+ERR: 非法操作:logout
+
+[ 2016-06-19T16:22:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/home.html
+ERR: 非法操作:home
+
+[ 2016-06-19T16:22:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/home.html
+ERR: 非法操作:home
+
+[ 2016-06-19T16:25:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/home.html
+ERR: 非法操作:home
+
+[ 2016-06-19T16:25:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/home.html
+ERR: 非法操作:home
+

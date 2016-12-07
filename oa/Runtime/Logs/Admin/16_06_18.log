@@ -1,0 +1,21 @@
+[ 2016-06-18T09:29:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/home.html
+ERR: 非法操作:home
+
+[ 2016-06-18T09:29:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/home.html
+ERR: 非法操作:home
+
+[ 2016-06-18T09:37:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/home.html
+ERR: 非法操作:home
+
+[ 2016-06-18T17:44:00+08:00 ] 127.0.0.1 /index.php/admin/dept/editOk
+ERR: 非法操作:editok
+
+[ 2016-06-18T23:31:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/home.html
+ERR: 非法操作:home
+
+[ 2016-06-18T23:32:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/home.html
+ERR: 非法操作:home
+
+[ 2016-06-18T23:44:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/home.html
+ERR: 非法操作:home
+

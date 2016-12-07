@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>test6-模版中的系统变量</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link href="" rel="stylesheet">
+		<script type="text/javascript">
+			
+		</script>
+	</head>
+	
+	<body>
+		server信息中的path：{$Think.server.path}<br/>
+		get信息中的id：{$Think.get.id}<br/>
+		request信息中id：{$Think.request.id}<br/>
+		cookie信息中的sessionid：{$Think.cookie.PHPSESSID}<br/>
+		config信息中URL_MODEL：{$Think.config.URL_MODEL}
+	</body>
+</html>

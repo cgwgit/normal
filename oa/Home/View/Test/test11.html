@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>test11 使用volist遍历</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link href="" rel="stylesheet">
+		<script type="text/javascript">
+			
+		</script>
+	</head>
+	
+	<body>
+		<volist name="arr" id="vol">
+			{$vol}<br/>
+		</volist>
+		<hr/>
+		<volist name='arr2' id='vo'>
+			{$vo.0}-{$vo.1}-{$vo.2}-{$vo.3}<br/>
+		</volist>
+		<hr/>
+		<foreach name='arr2' item='vol2'>
+			{$vol2[0]}-{$vol2[1]}-{$vol2[2]}-{$vol2[3]}<br/>
+		</foreach>
+	</body>
+</html>

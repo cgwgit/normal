@@ -1,0 +1,24 @@
+[ 2016-06-22T09:12:45+08:00 ] 127.0.0.1 /index.php/Admin/Doc/showList
+ERR: 无法加载控制器:Doc
+
+[ 2016-06-22T09:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Doc/add
+ERR: 无法加载控制器:Doc
+
+[ 2016-06-22T09:13:38+08:00 ] 127.0.0.1 /index.php/Admin/Doc/add
+ERR: 无法加载控制器:Doc
+
+[ 2016-06-22T09:32:11+08:00 ] 127.0.0.1 /index.php/Admin/Doc/showList.html
+ERR: 非法操作:showList
+
+[ 2016-06-22T09:33:34+08:00 ] 127.0.0.1 /index.php/Admin/Doc/showList.html
+ERR: 非法操作:showList
+
+[ 2016-06-22T09:34:09+08:00 ] 127.0.0.1 /index.php/Admin/Doc/showList.html
+ERR: 非法操作:showList
+
+[ 2016-06-22T16:00:24+08:00 ] 127.0.0.1 /index.php/Admin/Doc/download/id/5
+ERR: 非法操作:download
+
+[ 2016-06-22T17:04:25+08:00 ] 127.0.0.1 /index.php/Admin/Doc/getContent/id/5
+ERR: 非法操作:getContent
+

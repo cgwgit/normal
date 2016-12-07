@@ -1,0 +1,4 @@
+[ 2016-12-01T20:47:32+08:00 ] 127.0.0.1 /index.php/Admin/Public/index
+ERR: 1146:Table 'scoredb.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+

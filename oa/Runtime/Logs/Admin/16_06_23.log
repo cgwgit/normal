@@ -1,0 +1,6 @@
+[ 2016-06-23T23:34:32+08:00 ] 127.0.0.1 /index.php/Admin/Doc/edit/id/4
+ERR: 非法操作:edit
+
+[ 2016-06-23T23:36:32+08:00 ] 127.0.0.1 /index.php/Admin/Index1/111
+ERR: 非法操作:111
+
