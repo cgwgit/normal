@@ -1,0 +1,69 @@
+[ 2016-03-27T10:31:55+08:00 ] 127.0.0.1 /index.php/top.html
+ERR: 无法加载模块:Top
+
+[ 2016-03-27T10:31:55+08:00 ] 127.0.0.1 /index.php/center.html
+ERR: 无法加载模块:Center
+
+[ 2016-03-27T10:31:55+08:00 ] 127.0.0.1 /index.php/down.html
+ERR: 无法加载模块:Down
+
+[ 2016-03-27T10:33:18+08:00 ] 127.0.0.1 /index.php/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002648s ]
+ERR: 无法加载模块:Top
+
+[ 2016-03-27T10:33:18+08:00 ] 127.0.0.1 /index.php/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003369s ]
+ERR: 无法加载模块:Center
+
+[ 2016-03-27T10:33:18+08:00 ] 127.0.0.1 /index.php/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+ERR: 无法加载模块:Down
+
+[ 2016-03-27T10:33:57+08:00 ] 127.0.0.1 /index.php/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+ERR: 无法加载模块:Top
+
+[ 2016-03-27T10:33:57+08:00 ] 127.0.0.1 /index.php/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+ERR: 无法加载模块:Down
+
+[ 2016-03-27T10:33:57+08:00 ] 127.0.0.1 /index.php/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+ERR: 无法加载模块:Center
+
+[ 2016-03-27T10:41:36+08:00 ] 127.0.0.1 /index.php/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+ERR: 无法加载模块:Center
+
+[ 2016-03-27T10:41:36+08:00 ] 127.0.0.1 /index.php/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+ERR: 无法加载模块:Down
+
+[ 2016-03-27T14:34:40+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-27T14:34:41+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+ERR: 无法加载模块:Favicon
+

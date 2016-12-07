@@ -1,0 +1,346 @@
+[ 2016-03-29T10:33:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tianjia.html
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'goods_big_logo' at row 1
+
+[ 2016-03-29T11:51:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tianjia.html
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'goods_shop_price' at row 1
+
+[ 2016-03-29T16:12:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/delPics?pics_id=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002129s ]
+SQL: SHOW COLUMNS FROM `sp_goods_pic` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `sp_goods_pic` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0007s ]
+SQL: DELETE FROM `sp_goods_pic` WHERE `id` = 12 [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001703s ]
+
+[ 2016-03-29T16:13:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/delPics?pics_id=11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002009s ]
+SQL: SHOW COLUMNS FROM `sp_goods_pic` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `sp_goods_pic` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0006s ]
+SQL: DELETE FROM `sp_goods_pic` WHERE `id` = 11 [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002844s ]
+
+[ 2016-03-29T16:14:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/delPics?pics_id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002199s ]
+SQL: SHOW COLUMNS FROM `sp_goods_pic` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `sp_goods_pic` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: DELETE FROM `sp_goods_pic` WHERE `id` = 13 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2016-03-29T16:17:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/delPics?pics_id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002216s ]
+SQL: SHOW COLUMNS FROM `sp_goods_pic` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `sp_goods_pic` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0023s ]
+SQL: DELETE FROM `sp_goods_pic` WHERE `id` = 9 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002255s ]
+
+[ 2016-03-29T16:19:32+08:00 ] 192.168.18.75 /admin/goods
+ERR: 非法操作:index
+
+[ 2016-03-29T16:20:42+08:00 ] 192.168.18.75 /admin/goods/edit
+ERR: 非法操作:edit
+
+[ 2016-03-29T16:22:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/delPics?pics_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+SQL: SHOW COLUMNS FROM `sp_goods_pic` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `sp_goods_pic` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+SQL: DELETE FROM `sp_goods_pic` WHERE `id` = 6 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001935s ]
+
+[ 2016-03-29T16:22:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/delPics?pics_id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002410s ]
+SQL: SHOW COLUMNS FROM `sp_goods_pic` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `sp_goods_pic` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0011s ]
+SQL: DELETE FROM `sp_goods_pic` WHERE `id` = 5 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002037s ]
+
+[ 2016-03-29T16:22:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/delPics?pics_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001800s ]
+SQL: SHOW COLUMNS FROM `sp_goods_pic` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `sp_goods_pic` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0008s ]
+SQL: DELETE FROM `sp_goods_pic` WHERE `id` = 4 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001697s ]
+
+[ 2016-03-29T16:22:35+08:00 ] 127.0.0.1 /index.php/Admin/Goods/delPics?pics_id=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002243s ]
+SQL: SHOW COLUMNS FROM `sp_goods_pic` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `sp_goods_pic` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0005s ]
+SQL: DELETE FROM `sp_goods_pic` WHERE `id` = 7 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002024s ]
+
+[ 2016-03-29T16:22:50+08:00 ] 192.168.18.75 /admin/delPics/pics_id/2
+ERR: 无法加载控制器:DelPics
+
+[ 2016-03-29T16:23:38+08:00 ] 192.168.18.75 /index.php/Admin/Goods/
+ERR: 非法操作:index
+
+[ 2016-03-29T16:54:12+08:00 ] 127.0.0.1 /Admin/Manager/this.src?0.7351317310376029
+ERR: 非法操作:this.src
+
+[ 2016-03-29T16:54:20+08:00 ] 127.0.0.1 /Admin/Manager/this.src?0.5375794353961725
+ERR: 非法操作:this.src
+
+[ 2016-03-29T16:54:44+08:00 ] 127.0.0.1 /Admin/Manager/this.src?0.7295163611182649
+ERR: 非法操作:this.src
+
+[ 2016-03-29T17:14:25+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=kidy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002247s ]
+NOTIC: [8] Undefined variable: key E:\web\php43\shop\Admin\Controller\ManagerController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001588s ]
+
+[ 2016-03-29T17:14:38+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=pnrl
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001968s ]
+NOTIC: [8] Undefined variable: key E:\web\php43\shop\Admin\Controller\ManagerController.class.php 第 30 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2016-03-29T17:15:16+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=3dbb
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+
+[ 2016-03-29T17:16:01+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=ttuw
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001415s ]
+
+[ 2016-03-29T17:16:10+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=1234
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002649s ]
+
+[ 2016-03-29T17:18:43+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=hfhx
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2016-03-29T17:18:49+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=nwcc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001788s ]
+
+[ 2016-03-29T17:19:50+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=dnwl
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2016-03-29T17:19:58+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=dn2l
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001529s ]
+
+[ 2016-03-29T17:20:06+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=dm9k
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001452s ]
+
+[ 2016-03-29T17:20:10+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=dm9d
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001819s ]
+
+[ 2016-03-29T17:20:17+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=k44r
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001404s ]
+
+[ 2016-03-29T17:24:02+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=m5md
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2016-03-29T17:26:44+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=t3uy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001374s ]
+
+[ 2016-03-29T17:28:00+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=kud7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2016-03-29T17:29:04+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=b8hf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2016-03-29T17:36:19+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=v3mu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2016-03-29T17:36:20+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=v3mu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001624s ]
+
+[ 2016-03-29T17:36:20+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=v3mu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001918s ]
+
+[ 2016-03-29T17:36:20+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=v3mu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001921s ]
+
+[ 2016-03-29T17:39:35+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=rhj2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2016-03-29T17:45:46+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=ctah
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001655s ]
+
+[ 2016-03-29T17:48:09+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=fgn8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002519s ]
+
+[ 2016-03-29T17:48:51+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=udps
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2016-03-29T17:49:00+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=sdsd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2016-03-29T17:49:01+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=sdsd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010326s ]
+
+[ 2016-03-29T17:49:23+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=56wx
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001916s ]
+
+[ 2016-03-29T17:51:02+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=uprg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001885s ]
+
+[ 2016-03-29T17:54:14+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify?code=pwga
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001433s ]
+

@@ -1,0 +1,597 @@
+[ 2016-04-10T16:14:35+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001820s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0080s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2016-04-10T16:17:10+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002339s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0110s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2016-04-10T16:19:12+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001998s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0090s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001200s ]
+
+[ 2016-04-10T16:19:30+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002342s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0093s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 24 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001853s ]
+
+[ 2016-04-10T16:21:50+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002173s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0084s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 24 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2016-04-10T16:24:00+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0095s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2016-04-10T16:32:28+08:00 ] 127.0.0.1 /index.php/Home/Shop/style/cart.css
+ERR: 非法操作:style
+
+[ 2016-04-10T16:32:29+08:00 ] 127.0.0.1 /index.php/Home/Shop/js/cart1.js
+ERR: 非法操作:js
+
+[ 2016-04-10T16:33:02+08:00 ] 127.0.0.1 /index.php/Home/Shop/style/cart.css
+ERR: 非法操作:style
+
+[ 2016-04-10T16:33:03+08:00 ] 127.0.0.1 /index.php/Home/Shop/js/cart1.js
+ERR: 非法操作:js
+
+[ 2016-04-10T16:33:28+08:00 ] 127.0.0.1 /index.php/Home/Shop/style/cart.css
+ERR: 非法操作:style
+
+[ 2016-04-10T16:33:28+08:00 ] 127.0.0.1 /index.php/Home/Shop/js/cart1.js
+ERR: 非法操作:js
+
+[ 2016-04-10T16:33:42+08:00 ] 127.0.0.1 /index.php/Home/Shop/style/cart.css
+ERR: 非法操作:style
+
+[ 2016-04-10T16:33:42+08:00 ] 127.0.0.1 /index.php/Home/Shop/js/cart1.js
+ERR: 非法操作:js
+
+[ 2016-04-10T16:33:43+08:00 ] 127.0.0.1 /index.php/Home/Shop/style/cart.css
+ERR: 非法操作:style
+
+[ 2016-04-10T16:33:44+08:00 ] 127.0.0.1 /index.php/Home/Shop/js/cart1.js
+ERR: 非法操作:js
+
+[ 2016-04-10T17:17:15+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=23&number=41
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002845s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2016-04-10T17:17:30+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=23&number=411
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002031s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001721s ]
+
+[ 2016-04-10T17:18:20+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=23&number=412
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001854s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2016-04-10T17:18:24+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=23&number=412
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2016-04-10T17:19:35+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005031s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2016-04-10T17:19:36+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002809s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2016-04-10T17:19:38+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002017s ]
+
+[ 2016-04-10T17:19:39+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001760s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0042s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001827s ]
+
+[ 2016-04-10T17:19:40+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2016-04-10T17:19:46+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001504s ]
+
+[ 2016-04-10T17:19:47+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2016-04-10T17:22:26+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002008s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001870s ]
+
+[ 2016-04-10T17:22:26+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002035s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001635s ]
+
+[ 2016-04-10T17:22:27+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002414s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001306s ]
+
+[ 2016-04-10T17:22:28+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002254s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001959s ]
+
+[ 2016-04-10T17:22:29+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003009s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001446s ]
+
+[ 2016-04-10T17:22:29+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002412s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001583s ]
+
+[ 2016-04-10T17:22:30+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002149s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001467s ]
+
+[ 2016-04-10T17:22:30+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001994s ]
+
+[ 2016-04-10T17:22:38+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003054s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2016-04-10T17:30:29+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001637s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2016-04-10T17:30:29+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001687s ]
+
+[ 2016-04-10T17:30:30+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2016-04-10T17:30:30+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001467s ]
+
+[ 2016-04-10T17:30:30+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2016-04-10T17:30:31+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002475s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-04-10T17:30:31+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003609s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2016-04-10T17:30:32+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002266s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2016-04-10T17:30:32+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002105s ]
+
+[ 2016-04-10T17:30:32+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002887s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001170s ]
+
+[ 2016-04-10T17:30:33+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001925s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2016-04-10T17:30:33+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2016-04-10T17:30:33+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001839s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2016-04-10T17:30:34+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2016-04-10T17:30:34+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001506s ]
+
+[ 2016-04-10T17:30:34+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002187s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2016-04-10T17:30:35+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001512s ]
+
+[ 2016-04-10T17:31:06+08:00 ] 127.0.0.1 /index.php/Home/Shop/return%20javascript:change_number(%27red%27,24)
+ERR: 非法操作:return javascript:change_number('red',24)
+
+[ 2016-04-10T17:35:58+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001588s ]
+
+[ 2016-04-10T17:36:12+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002060s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2016-04-10T17:36:15+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber?goods_id=24&number=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003020s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
+

@@ -1,0 +1,12 @@
+[ 2016-04-16T11:41:43+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist/cat_id/1
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'aattr_sel' in 'where clause'
+
+[ 2016-04-16T16:30:42+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist/cat_id/1
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'xl' in 'order clause'
+
+[ 2016-04-16T17:05:41+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist/cat_id/1/pai/xl
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'xl' in 'order clause'
+
+[ 2016-04-16T17:35:53+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist/cat_id/1/pai/jg/xu/desc
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'jg' in 'order clause'
+

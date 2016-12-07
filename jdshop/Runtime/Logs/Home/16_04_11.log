@@ -1,0 +1,357 @@
+[ 2016-04-11T09:19:01+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0091s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 18 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001918s ]
+
+[ 2016-04-11T09:19:09+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0081s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 22 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001450s ]
+
+[ 2016-04-11T09:19:14+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0114s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001903s ]
+
+[ 2016-04-11T09:19:20+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0116s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 24 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001685s ]
+
+[ 2016-04-11T09:32:57+08:00 ] 127.0.0.1 /Home/Shop/delGoods
+ERR: 参数错误或者未定义:goods_id
+
+[ 2016-04-11T09:35:51+08:00 ] 127.0.0.1 /index.php/Home/Shop/delGoods?goods_id=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002112s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001232s ]
+
+[ 2016-04-11T09:38:25+08:00 ] 127.0.0.1 /index.php/Home/Shop/delGoods?goods_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001978s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001228s ]
+
+[ 2016-04-11T09:38:29+08:00 ] 127.0.0.1 /index.php/Home/Shop/delGoods?goods_id=22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002156s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2016-04-11T09:38:33+08:00 ] 127.0.0.1 /index.php/Home/Shop/delGoods?goods_id=24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001742s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001376s ]
+
+[ 2016-04-11T09:38:40+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0072s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2016-04-11T09:38:49+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0083s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 18 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2016-04-11T09:38:54+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002005s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0094s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2016-04-11T09:39:31+08:00 ] 127.0.0.1 /index.php/Home/Shop/delGoods?goods_id=24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005578s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001844s ]
+
+[ 2016-04-11T10:45:42+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0079s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2016-04-11T11:36:21+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0120s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 18 LIMIT 1   [ RunTime:0.0052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001789s ]
+
+[ 2016-04-11T14:34:58+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0077s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 18 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2016-04-11T14:35:04+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0092s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 22 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2016-04-11T14:35:10+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0145s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001659s ]
+
+[ 2016-04-11T14:51:29+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002760s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0081s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 18 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2016-04-11T14:51:35+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002067s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0093s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 22 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2016-04-11T14:51:43+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002246s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0076s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2016-04-11T16:32:34+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002272s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0088s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 18 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2016-04-11T16:32:40+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002702s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0080s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 22 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2016-04-11T16:32:52+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002644s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0119s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001663s ]
+
+[ 2016-04-11T16:34:00+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0119s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 22 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002069s ]
+
+[ 2016-04-11T16:34:03+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0076s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 18 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001319s ]
+
+[ 2016-04-11T16:34:06+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+SQL: SHOW COLUMNS FROM `sp_category` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_category` WHERE `cat_level` = '2'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0075s ]
+SQL: SELECT `goods_id`,`goods_name`,goods_shop_price goods_price,goods_shop_price goods_total_price FROM `sp_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001403s ]
+

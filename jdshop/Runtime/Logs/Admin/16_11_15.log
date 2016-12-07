@@ -1,0 +1,104 @@
+[ 2016-11-15T16:22:04+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001658s ]
+
+[ 2016-11-15T16:22:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2016-11-15T16:22:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2016-11-15T16:22:14+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2016-11-15T16:22:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001341s ]
+
+[ 2016-11-15T16:22:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0109s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_pid`,`auth_c`,`auth_a` FROM `sp_auth` WHERE `auth_level` = 0  [ RunTime:0.0006s ]
+SQL: SELECT `auth_id`,`auth_name`,`auth_pid`,`auth_c`,`auth_a` FROM `sp_auth` WHERE `auth_level` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001310s ]
+
+[ 2016-11-15T16:23:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/changeQiang?goods_id=28&flag=hot
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0027s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m left join sp_role r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 28 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `sp_goods` SET `goods_is_hot`='热' WHERE `goods_id` = 28 [ RunTime:0.0346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2016-11-15T16:23:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/changeQiang?goods_id=28&flag=rec
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0030s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m left join sp_role r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 28 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `sp_goods` SET `goods_is_rec`='不推荐' WHERE `goods_id` = 28 [ RunTime:0.0382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
