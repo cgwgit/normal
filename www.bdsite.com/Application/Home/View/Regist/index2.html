@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Xenon Boostrap Admin Panel" />
+        <meta name="author" content="" />
+        <title>中孝社区-后台管理系统</title>
+        <link rel="stylesheet" href="__PUBLIC__/assets/css/fonts/linecons/css/linecons.css">
+        <link rel="stylesheet" href="__PUBLIC__/assets/css/fonts/fontawesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="__PUBLIC__/assets/css/bootstrap.css">
+        <link rel="stylesheet" href="__PUBLIC__/assets/css/xenon-core.css">
+        <link rel="stylesheet" href="__PUBLIC__/assets/css/xenon-forms.css">
+        <link rel="stylesheet" href="__PUBLIC__/assets/css/xenon-components.css">
+        <link rel="stylesheet" href="__PUBLIC__/assets/css/xenon-skins.css">
+        <link rel="stylesheet" href="__PUBLIC__/assets/css/custom.css">
+        <style>
+            img#code {
+                position:absolute;
+                display:none;
+                cursor: pointer;
+            }
+            span.error{
+                font:13px Arial;
+                margin: 0 0 0 5px;
+                background:url('__PUBLIC__/images/error.gif') no-repeat left center;
+                padding: 0 0 0 15px;
+            }
+            span.right {
+                font:13px Arial;
+                margin: 0 0 0 5px;
+                background:url('__PUBLIC__/images/right.gif') no-repeat left center;
+                padding: 0 0 0 15px;
+            }
+        </style>
+        <script src="__PUBLIC__/assets/js/jquery-1.11.1.min.js"></script>
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+                <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+                <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+    <body class="page-body skin-white ">
+        <div class="page-container">
+            <div class="main-content">
+                <div class="page-title">
+                    <div class="title-env">
+                        <h1 class="title">中孝积分报单平台</h1>
+                        <p class="description"></p>
+                    </div>
+                    <div class="breadcrumb-env">
+                        <ol class="breadcrumb bc-1">
+                            <li>
+                                <a href="__MODULE__/Login/index"><i class="fa-home"></i>返回登录</a>
+                            </li>
+                        </ol>	
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="panel panel-default"><!-- Add class "collapsed" to minimize the panel -->
+                            <script type="text/javascript">
+                                jQuery(document).ready(function($)
+                                {
+                                    // Reveal Login form
+                                    setTimeout(function() {
+                                        $(".fade-in-effect").addClass('in');
+                                    }, 1);
+                                    // Validation and Ajax action
+                                    $("form#login").validate({
+                                        rules: {
+                                            username: {
+                                                required: true
+                                            },
+                                            passwd: {
+                                                required: true
+                                            }
+                                        },
+                                        messages: {
+                                            username: {
+                                                required: '用户名不可为空.'
+                                            },
+                                            passwd: {
+                                                required: '密码不可为空.'
+                                            }
+                                        },
+                                        // Form Processing via AJAX
+                                        submitHandler: function(form)
+                                        {
+                                            show_loading_bar(70); // Fill progress bar to 70% (just a given value)
+                                            var opts = {
+                                                "closeButton": true,
+                                                "debug": false,
+                                                "positionClass": "toast-top-full-width",
+                                                "onclick": null,
+                                                "showDuration": "300",
+                                                "hideDuration": "1000",
+                                                "timeOut": "5000",
+                                                "extendedTimeOut": "1000",
+                                                "showEasing": "swing",
+                                                "hideEasing": "linear",
+                                                "showMethod": "fadeIn",
+                                                "hideMethod": "fadeOut"
+                                            };
+                                            $.ajax({
+                                                url: "data/login-check.php",
+                                                method: 'POST',
+                                                dataType: 'json',
+                                                data: {
+                                                    do_login: true,
+                                                    username: $(form).find('#username').val(),
+                                                    passwd: $(form).find('#passwd').val(),
+                                                },
+                                                success: function(resp)
+                                                {
+                                                    show_loading_bar({
+                                                        delay: .5,
+                                                        pct: 100,
+                                                        finish: function() {
+                                                            // Redirect after successful login page (when progress bar reaches 100%)
+                                                            if (resp.accessGranted)
+                                                            {
+                                                                window.location.href = 'index.html';
+                                                            }
+                                                        }
+                                                    });
+
+                                                    // Remove any alert
+                                                    $(".errors-container .alert").slideUp('fast');
+
+                                                    // Show errors
+                                                    if (resp.accessGranted == false)
+                                                    {
+                                                        $(".errors-container").html('<div class="alert alert-danger">\
+                                                                                    <button type="button" class="close" data-dismiss="alert">\
+                                                                                            <span aria-hidden="true">&times;</span>\
+                                                                                            <span class="sr-only">Close</span>\
+                                                                                    </button>\
+                                                                                    ' + resp.errors + '\
+                                                                            </div>');
+
+                                                        $(".errors-container .alert").hide().slideDown();
+                                                        $(form).find('#passwd').select();
+                                                    }
+                                                }
+                                            });
+                                        }
+                                    });
+
+                                    // Set Form focus
+                                    $("form#login .form-group:has(.form-control):first .form-control").focus();
+                                });
+                            </script>
+                            <!-- Errors container -->
+                            <div class="errors-container">
+
+                            </div>
+                            <div class="panel-body">
+                                <form name="frm" class="form-horizontal" method="post" action="">
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="field-1">用户名：</label>
+                                        <div class="col-sm-6">
+                                            <span><input type="text" name="username" id="username" onblur="checkusername()" class="form-control" id="field-1" placeholder="请输入用户名" data-form-un="1475128580993.3127"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group-separator"></div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="field-1">密码：</label>
+                                        <div class="col-sm-6">
+                                            <span><input type="password" name="loginpwd" id="loginpwd" class="form-control" id="field-1" placeholder="请输入密码" data-form-un="1475128580993.3127" onblur="checkpwd()"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group-separator"></div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="field-1">姓名：</label>
+                                        <div class="col-sm-6">
+                                            <span><input type="text" name="name" id="name" class="form-control" id="field-1" placeholder="请输入姓名" data-form-un="1475128580993.3127" onblur="checkname()"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group-separator"></div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">性别：</label>
+                                        <div class="col-sm-6">
+                                            <select class="form-control" name="sex" id="sexx">
+                                                
+                                                    <option value="0">- - - -</option>
+                                                    <option value="1">男</option>
+                                                    <option value="2">女</option>
+                                                    <option value="3">保密</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group-separator"></div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="field-1">身份证号：</label>
+                                        <div class="col-sm-6">
+                                            <span><input type="text" name="idcard"  id="idcard" class="form-control" id="field-1" placeholder="请输入身份证号" data-form-un="1475128580993.3127" onblur="checkcard()"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group-separator"></div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="field-1">地区：</label>
+                                        <div class="col-sm-6">
+                                            <span><input type="text" class="form-control" name="area"  id="field-1" placeholder="请输入地区" data-form-un="1475128580993.3127" ></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group-separator"></div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="field-1">家庭住址：</label>
+                                        <div class="col-sm-6">
+                                            <span><input type="text" class="form-control" name="address" id="address" id="field-1" placeholder="请输入家庭住址" data-form-un="1475128580993.3127" onblur="checkadd()"  onblur="checkaddress()"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group-separator"></div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="field-1">电子邮箱：</label>
+                                        <div class="col-sm-6">
+                                            <span><input type="text" class="form-control" name="email" id="email" id="field-1" placeholder="请输入邮箱" data-form-un="1475128580993.3127" onblur="checkemail()"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group-separator"></div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">开户银行：</label>
+                                        <div class="col-sm-6">
+                                            <select class="form-control" name="bankname">
+                                                <foreach name="bnametype" item="vo">
+                                                    <option value="{$vo.bank_name}">{$vo.bank_name}</option>
+                                                </foreach>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group-separator"></div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">卡片类型：</label>
+                                        <div class="col-sm-10">
+                                            <label class="cbr-inline">
+                                                <input type="radio" name="cardtype" class="cbr"  value="储蓄卡" checked>储蓄卡
+                                            </label>
+                                            <label class="cbr-inline">
+                                                <input type="radio"  name="cardtype" value="信用卡" class="cbr">信用卡
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group-separator"></div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="field-1">银行卡号：</label>
+                                        <div class="col-sm-6">
+                                            <span><input type="text" id="bankcard"  name="bankcard" class="form-control" id="field-1" placeholder="请输入银行卡号" data-form-un="1475128580993.3127" onblur="checkbank()"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group-separator"></div>
+                                   
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="field-1">推荐人ID：</label>
+                                        <div class="col-sm-6">
+                                            <span><input type="text" id="inviterid" name="inviterid" class="form-control" id="field-1" placeholder="请输入推荐人ID" data-form-un="1475128580993.3127" onblur="checkinv()"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group-separator"></div>
+									 <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="field-1">手机号码：</label>
+                                        <div class="col-sm-6">
+                                            <span><input type="text" id="mobile" name="mobile" class="form-control"  placeholder="请输入手机号码" data-form-un="1475128580993.3127" onblur="checkphone()"></span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group-separator"></div>
+                                    <label class="col-sm-4 control-label" for="field-1"><a href="javascript:;" onclick="ff()"  class="btn btn-red btn-icon">
+                            <span>立即注册</span>
+                          
+                            </button></a></label>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class="modal fade" id="modal-3">
+            <div class="modal-dialog">
+                <form action="" method="post" name="form2">
+                    <div class="modal-content">
+
+                            <div class="row">
+                                <div class="col-md-12"> 
+                                    <div class="form-group">
+                                        用户名：<input type='text' name='uname' id='uname' value='' disabled>
+                                    </div>	
+                                </div>
+                            </div>
+                           
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        手机号：<input type='text' name='phone' id='phone' value='' disabled>
+                                    </div>	
+                                </div>
+                            </div>
+							<div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        验证码：<input type='text' name='code' id='code'><input type="button" id="btn" value="获取验证码" />
+										
+                                    </div>
+                                    </div>	
+                                </div>
+								<div class="modal-footer">
+                            <button type="button" class="btn btn-white" data-dismiss="modal">取消</button>
+                            <a href="javascript:;" onclick="sure()"  class="btn btn-red btn-icon">
+                            <span>确认</span>
+                          
+                            </button></a>
+                        </div>
+                            </div>
+                           
+                     
+
+                        
+						<script >
+						function sure(){
+			var mobile = document.frm.mobile.value;
+			var code=document.getElementById("code").value;
+		$.ajax( {  
+		url:'__MODULE__/Code/code',// 跳转到 action  
+		data:{ phone:mobile, 
+				code:code
+		},  
+		type:'post',  
+		dataType:'json',  
+		success:function(result) {  
+		if(result.code==0){
+		return jQuery('#modal-4').modal('show', {backdrop: 'fade'});
+		}else{
+		alert(result.message);
+		}
+			
+		}
+	});
+			}
+						</script>
+                    </div>
+                </form>
+            </div>
+			<div class="modal fade" id="modal-4">
+            <div class="modal-dialog">
+                <form action="" method="" name="form2">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">确认注册信息</h4>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        用&nbsp;户&nbsp;名：<input type='text' name='uusername' id='uusername' value='' disabled>
+										<input type='hidden' name='uloginpwd' id='uloginpwd' value='' disabled>
+                                    </div>	
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                     姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：<input type='text' name='uuname' id='uuname' value='' disabled></div>	
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                    性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：<input type='text' name='usex' id='usex' value='' disabled></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                     身份证号：<input type='text' name='uidcard' id='uidcard' value='' disabled></div>	
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                    地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;区：<input type='text' name='uarea' id='uarea' value='' disabled> </div>	
+                                </div>
+                            </div>
+							                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                    家庭住址：<input type='text' name='uaddress' id='uaddress' value='' disabled> </div>	
+                                </div>
+                            </div>
+							                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                    电子邮箱：<input type='text' name='uemail' id='uemail' value='' disabled> </div>	
+                                </div>
+                            </div>
+							                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                    开户银行：<input type='text' name='ubankname' id='ubankname' value='' disabled> </div>	
+                                </div>
+                            </div>
+							                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                    卡片类型：<input type='text' name='ucardtype' id='ucardtype' value='' disabled> </div>	
+                                </div>
+                            </div>
+							 <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                    银行卡号：<input type='text' name='ubankcard' id='ubankcard' value='' disabled> </div>	
+                                </div>
+                            </div>
+							 <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                    推荐人ID：<input type='text' name='uinviterid' id='uinviterid' value='' disabled> </div>	
+                                </div>
+                            </div>
+							 <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                    手机号码：<input type='text' name='umobile' id='umobile' value='' disabled> </div>	
+                                </div>
+                            </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-white" data-dismiss="modal">取消</button>
+							
+                            <input type="button" value="确认注册"  class="btn btn-info"  OnClick="fff()" >
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+        </div>
+		
+        <script>
+		var wait=60;  
+function time(o) {  
+        if (wait == 0) {  
+            o.removeAttribute("disabled");            
+            o.value="免费获取验证码";  
+            wait = 60;  
+        } else {  
+            o.setAttribute("disabled", true);  
+            o.value="重新发送(" + wait + "s)";  
+            wait--;  
+            setTimeout(function() {  
+                time(o)  
+            },  
+            1000)  
+        }  
+    }  
+document.getElementById("btn").onclick=function(){
+
+		time(this);
+		var mobile=document.getElementById("mobile").value;
+		$.ajax( {  
+		url:'__MODULE__/Code/pwd',// 跳转到 action  
+		data:{ mobile:mobile 
+				
+		},  
+		type:'post',  
+		dataType:'json',  
+		success:function(result) {  
+		if(result.code==0){
+		alert(result.message);
+		}else{
+		alert(result.message);
+		}
+			
+		}
+	});
+}  
+      function ff() {
+                
+                
+                
+                
+                
+                
+                
+                var mobile = document.frm.mobile.value;
+				var username = document.frm.username.value;
+				var loginpwd = document.frm.loginpwd.value;
+				var idcard = document.frm.idcard.value;
+				var name = document.frm.name.value;
+				var address = document.frm.address.value;
+				var email = document.frm.email.value;
+				var bankcard = document.frm.bankcard.value;
+				var inviterid = document.frm.inviterid.value;
+				document.getElementById("uusername").value=username;
+				document.getElementById("uloginpwd").value=document.frm.loginpwd.value;
+				
+				document.getElementById("uname").value=username;
+				
+				document.getElementById("uuname").value=name;
+				var sex1 = $('#sexx').val();
+				var ee = ['未填写', '男', '女', '保密'];
+				$('#usex').val(ee[sex1]);
+				//document.getElementById("usex").value=ee.document.frm.sex.value;
+				document.getElementById("uidcard").value=idcard;
+				document.getElementById("uarea").value=document.frm.area.value;
+				document.getElementById("uaddress").value=address;
+				document.getElementById("uemail").value=email;
+				document.getElementById("ubankname").value=document.frm.bankname.value;
+				
+				document.getElementById("ucardtype").value=document.frm.cardtype.value;
+				
+				document.getElementById("ubankcard").value=bankcard;
+				document.getElementById("uinviterid").value=inviterid;
+				document.getElementById("umobile").value=mobile;
+				document.getElementById("phone").value=mobile;
+                if (username.match(/[\'.,:;*?~`!@#$%^&+=)(<>{}]|\]|\[|\/|\\\|\"|\|/) || username.match(/^\s*$/)) {
+                    alert("包含非法字符");return false;
+                } 
+				
+                if (loginpwd.length < 6 || loginpwd.length > 15) {
+                    //$("#banknoInfo").html("银行卡号长度必须在16到19之间");
+                   alert("密码长度必须在6到15之间");return false;
+                } 
+				
+                if (name.match(/^\s*$/)) {
+                    alert("姓名不能为空");return false;
+                }
+				
+                if (!idcard.match(/^\d{6}(18|19|20)?\d{2}(0[1-9]|1[12])(0[1-9]|[12]\d|3[01])\d{3}(\d|X)$/i)) {
+                    alert("请输入有效的身份证号");return false;
+                } 
+				
+                if (address.match(/^\s*$/)) {
+                    alert("地址不能为空");return false;
+                } 
+				
+                if (!email.match(/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/)) {
+                    alert("您输入的邮箱格式不正确");return false;
+                } 
+				
+                if (!bankcard.match(/^\d*$/) || bankcard.length != 19 && bankcard.length != 16 && bankcard.length != 17) {
+                    alert("请输入有效的银行卡号");return false;
+                } 
+				
+                if (!mobile.match(/^\d*$/) || mobile.length != 11 ) {
+                    //$("#banknoInfo").html("银行卡号长度必须在16到19之间");
+                    alert("请输入有效的手机号");return false;
+                }
+				
+                if(inviterid.match(/^\s*$/)){
+                    alert("推荐人不能为空");return false;
+                }
+				
+				return jQuery('#modal-3').modal('show', {backdrop: 'fade'});
+				
+				
+            }
+			
+			 function fff() {
+				var username=document.getElementById("uusername").value;
+				
+				var loginpwd=document.getElementById("uloginpwd").value;
+				var name=document.getElementById("uname").value;
+				var sex=document.getElementById("usex").value;
+				var idcard=document.getElementById("uidcard").value;
+				var area=document.getElementById("uarea").value;
+				var address=document.getElementById("uaddress").value;
+				var email=document.getElementById("uemail").value;
+				var bankname=document.getElementById("ubankname").value;
+				var cardtype=document.getElementById("ucardtype").value;
+				var bankcard=document.getElementById("ubankcard").value;
+				var inviterid=document.getElementById("uinviterid").value;
+				var mobile=document.getElementById("umobile").value;
+				$.ajax( {  
+		url:'__MODULE__/Regist/res',// 跳转到 action  
+		data:{ username:username, 
+				loginpwd:loginpwd,
+				name:name,
+				sex:sex,
+				idcard:idcard,
+				area:area,
+				address:address,
+				email:email,
+				bankname:bankname,
+				cardtype:cardtype,
+				bankcard:bankcard,
+				inviterid:inviterid,
+				mobile:mobile
+		},  
+		type:'post',  
+		dataType:'json',  
+		success:function(result) {  
+			if(result.code==0){
+			alert(result.message);
+			location.href="__MODULE__/Login/index";
+			}else{
+			alert(result.message);
+			}
+				
+		}
+	});
+				
+				
+				
+            }
+        </script>
+        <!-- Bottom Scripts -->
+        <script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+        <script src="__PUBLIC__/assets/js/TweenMax.min.js"></script>
+        <script src="__PUBLIC__/assets/js/resizeable.js"></script>
+        <script src="__PUBLIC__/assets/js/joinable.js"></script>
+        <script src="__PUBLIC__/assets/js/xenon-api.js"></script>
+        <script src="__PUBLIC__/assets/js/xenon-toggles.js"></script>
+        <script src="__PUBLIC__/assets/js/jquery-validate/jquery.validate.min.js"></script>
+        <script src="__PUBLIC__/assets/js/toastr/toastr.min.js"></script>
+
+        <!-- JavaScripts initializations and stuff -->
+        <script src="__PUBLIC__/assets/js/xenon-custom.js"></script>
+    </body>
+</html>

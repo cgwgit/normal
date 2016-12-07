@@ -1,0 +1,521 @@
+[ 2016-09-26T08:49:17+08:00 ] ::1 /baodan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-26T08:49:26+08:00 ] ::1 /baodan/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `t_user` WHERE ( username = 'zxsq' ) LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: message D:\WWW\baodan\Application\Runtime\Cache\Home\940b8ea4e6c49feb733ebbab05cc5976.php 第 35 行.
+NOTIC: [8] Undefined variable: message D:\WWW\baodan\Application\Runtime\Cache\Home\940b8ea4e6c49feb733ebbab05cc5976.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-26T08:49:32+08:00 ] ::1 /baodan/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `t_user` WHERE ( username = 'zxsq' ) LIMIT 1   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: message D:\WWW\baodan\Application\Runtime\Cache\Home\940b8ea4e6c49feb733ebbab05cc5976.php 第 35 行.
+NOTIC: [8] Undefined variable: message D:\WWW\baodan\Application\Runtime\Cache\Home\940b8ea4e6c49feb733ebbab05cc5976.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-26T08:49:36+08:00 ] ::1 /baodan/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `t_user` WHERE ( username = 'zxsq' ) LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: message D:\WWW\baodan\Application\Runtime\Cache\Home\940b8ea4e6c49feb733ebbab05cc5976.php 第 35 行.
+NOTIC: [8] Undefined variable: message D:\WWW\baodan\Application\Runtime\Cache\Home\940b8ea4e6c49feb733ebbab05cc5976.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-26T08:50:30+08:00 ] ::1 /baodan/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `t_user` WHERE ( username = 'zxkj' ) LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-26T08:50:32+08:00 ] ::1 /baodan/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 )  [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0180s ]
+NOTIC: [8] Undefined variable: show D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: data D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-26T08:51:38+08:00 ] ::1 /baodan/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 )  [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: show D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: data D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-26T08:52:09+08:00 ] ::1 /baodan/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: show D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: data D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-26T08:52:33+08:00 ] ::1 /baodan/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: show D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: data D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-26T08:53:05+08:00 ] ::1 /baodan/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: show D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: data D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-26T08:53:38+08:00 ] ::1 /baodan/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: show D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: data D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-26T08:54:13+08:00 ] ::1 /baodan/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: show D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: data D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-26T08:55:05+08:00 ] ::1 /baodan/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: show D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: data D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-26T08:55:17+08:00 ] ::1 /baodan/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 )  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: show D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: data D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-26T08:55:19+08:00 ] ::1 /baodan/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: show D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: data D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-26T08:55:28+08:00 ] ::1 /baodan/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: show D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: data D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-26T08:55:41+08:00 ] ::1 /baodan/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: show D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: data D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-26T08:56:02+08:00 ] ::1 /baodan/index.php/Home/Show/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE ( userid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_userinfo` WHERE ( userid=1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE ( uid=1 )  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_equity` WHERE ( eid = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: show D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: data D:\WWW\baodan\Application\Home\Controller\ShowController.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

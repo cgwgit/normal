@@ -1,0 +1,24 @@
+[ 2016-10-21T09:11:48+08:00 ] 111.79.174.67 /zxsq/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-10-21T09:12:03+08:00 ] 111.79.174.67 /zxsq/index.php/zxyl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+ERR: 无法加载模块:Zxyl
+
+[ 2016-10-21T09:14:53+08:00 ] 101.226.33.203 /zxsq/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-10-21T09:15:10+08:00 ] 180.153.206.20 /zxsq/index.php/zxyl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+ERR: 无法加载模块:Zxyl
+

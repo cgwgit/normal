@@ -1,0 +1,57 @@
+<nav class="navbar user-info-navbar" role="navigation">
+				<!-- Left links for user info navbar -->
+				<ul class="user-info-menu left-links list-inline list-unstyled">
+					<!-- 菜单隐藏与显示 -->
+					<li class="hidden-sm hidden-xs">
+						<a href="#" data-toggle="sidebar">
+							<i class="fa-bars"></i>
+						</a>
+					</li>				
+					<li class="dropdown hover-line" style="min-height: 77px;">
+						<a href="#" data-toggle="dropdown">
+							<i class="<!--fa-envelope-o-->">当前用户：{$Think.session.userData.member_name}</i>
+							<span class="badge badge-green"></span>
+						</a>
+					</li>
+					<li class="dropdown hover-line" style="min-height: 77px;">
+						<a href="#" data-toggle="dropdown">
+							<i class="<!--fa-bell-o-->">注册时间 ： {$Think.session.member_time}</i>
+							<span class="badge badge-purple"></span>
+						</a>
+					</li>
+					<li class="dropdown hover-line" style="min-height: 77px;">
+						<a href="#" data-toggle="dropdown">
+							<i class="<!--fa-bell-o-->">距离注册 {$Think.session.time}天</i>
+							<span class="badge badge-purple"></span>
+						</a>
+					</li>
+					<li class="dropdown hover-line" style="min-height: 77px;">
+						<a href="#" data-toggle="dropdown">
+							<i class="<!--fa-bell-o-->">[现在位置 ：{$Think.session.server}]</i>
+							<span class="badge badge-purple"></span>
+						</a>
+					</li>
+				</ul>
+				<!-- 检索 -->
+				<ul class="user-info-menu right-links list-inline list-unstyled">
+					<!--
+					<li class="search-form">
+						<form method="get" action="extra-search.html">
+							<input type="text" name="s" class="form-control search-field" placeholder="Type to search..." />
+							<button type="submit" class="btn btn-link">
+								<i class="linecons-search"></i>
+							</button>
+						</form>
+					</li>
+					 -->
+					<!-- 用户信息 -->
+					<li class="dropdown user-profile">
+						<a href="__MODULE__/Login/logout" >
+							<span>
+								安全退出
+								<i class="fa-lock"></i>
+							</span>
+						</a>
+					</li>
+				</ul>
+			</nav>

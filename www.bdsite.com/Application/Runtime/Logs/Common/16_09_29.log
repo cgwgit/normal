@@ -1,0 +1,6 @@
+[ 2016-09-29T16:59:23+08:00 ] ::1 /baodan/index.php/Home/Index/extra-search.html?s=fdf+
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Fdf 
+

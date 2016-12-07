@@ -1,0 +1,112 @@
+[ 2016-12-05T13:32:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+
+[ 2016-12-05T13:33:06+08:00 ] 127.0.0.1 /index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0362s ]
+SQL: SELECT * FROM `member` WHERE `member_name` = 'jsj' LIMIT 1   [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2016-12-05T13:33:08+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 74 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `tb_bankinfo` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `tb_bankinfo`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 74 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `member` WHERE `member_id` = 74 LIMIT 1   [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0148s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE `uid` = 74 AND ( isdelete = 0 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` WHERE `inviter_id` = 'jsj' LIMIT 1   [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `ransfer_record` [ RunTime:0.0147s ]
+SQL: SELECT SUM(charitable) AS tp_Sum FROM `ransfer_record` WHERE `member_id` = 74 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `member` WHERE `member_name` = 'zxkj' LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000370s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Undefined index: bankcard F:\www.tp.com\www.bdsite.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 437 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2016-12-05T13:33:13+08:00 ] 127.0.0.1 /index.php/Home/Generalize/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+NOTIC: [8] Undefined index: username F:\www.tp.com\www.bdsite.com\Application\Home\Controller\GeneralizeController.class.php 第 17 行.
+NOTIC: [8] Undefined index: date F:\www.tp.com\www.bdsite.com\Application\Home\Controller\GeneralizeController.class.php 第 25 行.
+NOTIC: [8] Undefined index: date F:\www.tp.com\www.bdsite.com\Application\Home\Controller\GeneralizeController.class.php 第 31 行.
+NOTIC: [8] Undefined index: username F:\www.tp.com\www.bdsite.com\Application\Home\Controller\GeneralizeController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `member` WHERE `member_id` = 74 LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT `member_id` FROM `member` WHERE `team_sign` LIKE '00010002%' AND ( team_sign != 00010002 )  [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0136s ]
+SQL: SELECT SUM(amount) AS tp_SUM FROM `tb_amountrecord` WHERE ( tb_amountrecord.uid in('301') ) AND ( `recordTime` > '2016-12-05 00:00:00'  ) AND `status` = '2' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` left join tb_userbalance on member.member_id = tb_userbalance.userid  WHERE `inviter_id` = 'jsj' LIMIT 1   [ RunTime:0.0034s ]
+SQL: SELECT * FROM `member` left join tb_userbalance on member.member_id = tb_userbalance.userid  WHERE `inviter_id` = 'jsj' ORDER BY length(team_sign) LIMIT 0,10   [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 74 LIMIT 1   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+SQL: SELECT SUM(amount) AS tp_sum FROM `tb_amountrecord` WHERE ( uid in( 
+                            SELECT member_id from member where team_sign like '000100020001%' and team_sign != '000100020001') AND recordTime > '2016-12-05 00:00:00' and status =2 ) LIMIT 1   [ RunTime:0.0033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+

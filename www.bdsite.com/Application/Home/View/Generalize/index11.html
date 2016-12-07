@@ -1,0 +1,340 @@
+<include file='Public:header' />
+                    <!-- 左侧菜单 -->
+                    <ul id="main-menu" class="main-menu">
+                        <!-- add class "multiple-expanded" to allow multiple submenus to open -->
+                        <!-- class "auto-inherit-active-class" will automatically add "active" class for parent elements who are marked already with class "active" -->
+                        <li class="">
+                            <a href="__MODULE__/Index/index">
+                                <i class="linecons-desktop"></i>
+                                <span class="title">个人信息</span>
+                            </a>
+                        </li>
+                        <!--li class="has-sub">
+                                <a href="">
+                                        <i class="linecons-desktop"></i>
+                                        <span class="title">会员注册</span>
+                                </a>
+                                <ul>
+                                        <li><a href=""><span class="title">新会员注册</span></a></li>
+                                        <li><a href=""><span class="title">我要升级加购</span></a></li>
+                                        <li><a href=""><span class="title">注册历史记录</span></a></li>
+                                </ul>
+                        </li-->
+                        <!--                                        <li class="">
+                                                                        <a href="__MODULE__/Money/index">
+                                                                                <i class="linecons-desktop"></i>
+                                                                                <span class="title">奖金收益</span>
+                                                                        </a>
+                                                                </li>-->
+                        <!--li class="has-sub">
+                                <a href="">
+                                        <i class="linecons-desktop"></i>
+                                        <span class="title">奖金收益</span>
+                                </a>
+                                <ul>
+                                        <li><a href="__MODULE__/Money/index"><span class="title">推荐奖金</span></a></li>
+                                        <li><a href="__MODULE__/Money/edit"><span class="title">管理奖金</span></a></li>
+                                        <li><a href="__MODULE__/Money/Dividend"><span class="title">分红奖金</span></a></li>
+                                        <li><a href="__MODULE__/Money/Benefit"><span class="title">福利奖金</span></a></li>
+                                        
+                                </ul>
+                        </li-->
+                        <li class="has-sub">
+                            <a href="">
+                                <i class="linecons-desktop"></i>
+                                <span class="title">钱包查询</span>
+                            </a>
+                            <ul>
+                                <li><a href="__MODULE__/Wallet/index"><span class="title">中孝钱包</span></a></li>
+                                <!--li><a href="qbcx_zcjf.php"><span class="title">注册积分</span></a></li-->
+                                <li><a href="__MODULE__/Wallet/integral"><span class="title">中孝积分</span></a></li>
+                                  <li><a href="__MODULE__/Money/running"><span class="title">我的奖金</span></a></li>
+                                <li><a href="__MODULE__/Money/index"><span class="title">累计奖励收益</span></a></li>
+                                <li><a href="__MODULE__/Wallet/consume"><span class="title">消费积分</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a href="">
+                                <i class="linecons-desktop"></i>
+                                <span class="title">转账提现</span>
+                            </a>
+                            <ul>
+                                <li><a href="__MODULE__/Withdraw/index"><span class="title">账户转账</span></a></li>
+                                <li><a href="__MODULE__/Withdraw/record"><span class="title">转账记录</span></a></li>
+                                <li><a href="__MODULE__/Withdraw/apply"><span class="title">钱包提现</span></a></li>
+                                <li><a href="__MODULE__/Withdraw/txjl"><span class="title">提现记录</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="active opened active">
+                            <a href="__MODULE__/Generalize/index">
+                                <i class="linecons-desktop"></i>
+                                <span class="title">我的团队</span>
+                            </a>
+
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="main-content">
+                <!-- User Info, Notifications and Menu Bar -->
+                <nav class="navbar user-info-navbar" role="navigation">
+                    <!-- Left links for user info navbar -->
+                    <ul class="user-info-menu left-links list-inline list-unstyled">
+                        <!-- 菜单隐藏与显示 -->
+                        <li class="hidden-sm hidden-xs">
+                            <a href="#" data-toggle="sidebar">
+                                <i class="fa-bars"></i>
+                            </a>
+                        </li>				
+                        <li class="dropdown hover-line" style="min-height: 77px;">
+                            <a href="#" data-toggle="dropdown">
+                                <i class="<!--fa-envelope-o-->">当前用户：{$Think.session.userData.member_name}</i>
+                                <span class="badge badge-green"></span>
+                            </a>
+                        </li>
+                        <li class="dropdown hover-line" style="min-height: 77px;">
+                            <a href="#" data-toggle="dropdown">
+                                <i class="<!--fa-bell-o-->">注册时间 ： {$Think.session.member_time}</i>
+                                <span class="badge badge-purple"></span>
+                            </a>
+                        </li>
+                        <li class="dropdown hover-line" style="min-height: 77px;">
+                            <a href="#" data-toggle="dropdown">
+                                <i class="<!--fa-bell-o-->">距离注册 {$Think.session.time}天</i>
+                                <span class="badge badge-purple"></span>
+                            </a>
+                        </li>
+                        <li class="dropdown hover-line" style="min-height: 77px;">
+                            <a href="#" data-toggle="dropdown">
+                                <i class="<!--fa-bell-o-->">[现在位置 ：{$Think.session.server}]</i>
+                                <span class="badge badge-purple"></span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- 检索 -->
+                    <ul class="user-info-menu right-links list-inline list-unstyled">
+					<!--
+					<li class="search-form">
+						<form method="get" action="extra-search.html">
+							<input type="text" name="s" class="form-control search-field" placeholder="Type to search..." />
+							<button type="submit" class="btn btn-link">
+								<i class="linecons-search"></i>
+							</button>
+						</form>
+					</li>
+					 -->
+					<!-- 用户信息 -->
+					<li class="dropdown user-profile">
+						<a href="__MODULE__/Login/logout" >
+							<span>
+								安全退出
+								<i class="fa-lock"></i>
+							</span>
+						</a>
+                                            
+					</li>
+				</ul>
+                                <ul class="user-info-menu right-links list-inline list-unstyled">
+					
+					<li class="search-form"><!-- You can add "always-visible" to show make the search input visible -->
+						
+						
+					</li>
+					
+					<li class="dropdown user-profile">
+						<a href="#" data-toggle="dropdown">
+							<span>
+								使用帮助
+								<i class="fa-angle-down"></i>
+							</span>
+						</a>
+						
+						<ul class="dropdown-menu user-profile-menu list-unstyled">
+							<li>
+								<a href="__MODULE__/Show/index" target="_blank" >
+									<i class="fa-edit"></i>
+									平台登录流程
+								</a>
+							</li>
+							<li>
+								<a href="__MODULE__/Show/show" target="_blank">
+									<i class="fa-wrench"></i>
+									平台报单流程
+								</a>
+							</li>
+							<li>
+								<a href="__MODULE__/Show/xiadan" target="_blank">
+									<i class="fa-user"></i>
+									平台转账提现流程
+								</a>
+							</li>
+							
+						</ul>
+					</li>
+					
+					
+				</ul>
+                </nav>
+                <div class="page-title">
+                    <div class="title-env">
+                        <h1 class="title">直接推荐查询 </h1>
+                        <p class="description"></p>
+                    </div>
+                    <div class="breadcrumb-env">
+                        <ol class="breadcrumb bc-1">
+                            <li>
+                                <a href="__MODULE__/Index/index"><i class="fa-home"></i>Home</a>
+                            </li>
+                            <li class="active">
+                                <strong>直接推荐查询 </strong>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                 <div class="row">
+                            <div class="col-sm-3">
+                                    <div class="xe-widget xe-counter">
+                                        <div class="xe-icon">
+                                                <i class="linecons-wallet"></i>
+                                        </div>
+                                        <div class="xe-label">
+                                                <strong class="num">{$achieve.achievement}</strong>
+                                                <span>业绩</span>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                <div class="panel panel-default">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <form role="form" class="form-horizontal" action='__MODULE__/Generalize/index' method="get">
+                                <div class="panel-body">
+                                    <div class="form-group" >
+                                        <label class="col-sm-1 control-label" for="username">用户名</label>
+                                        <div class="col-sm-2">
+                                            <input type="text" id="finishdate" class="form-control" name="username" value="{$username}">
+                                        </div>
+                                        <label class="col-sm-1 control-label" for="finishdate">注册日期</label>
+                                        <div class="col-sm-3">
+                                            <input type="text" name="date" id="finishdate" class="form-control daterange" data-format="YYYY-MM-DD" data-start-date="<?php echo date('Y-m-d H:i:s' )?>" data-end-date="<?php echo date('Y-m-d H:i:s' )?>" data-separator=" 至 " value="{$date}">
+                                        </div>
+                                        <button class="btn btn-secondary col-sm-1">查询</button>
+                                        <input type="reset" class="btn btn-secondary col-sm-1" value="重置">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Basic Setup -->
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <table class="table table-striped table-bordered" cellspacing="0" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>序号</th>
+                                    <th>用户名</th>
+                                    <th>姓名</th>
+                                    <th>手机号</th>
+                                    <th>层级</th>
+                                   
+                                    <th>目前等级</th>
+                                    <th>注册日期</th>
+                                    <th>成单积分</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php if(isset($_GET['p'])){
+                                $p=$_GET['p'];
+                                $i=1+10*($p-1);
+                                }else{
+                                $i=1;}
+                                foreach ($userRec as $vo){
+                                echo "<tr>";
+                                echo "<td>".$i."</td>";
+                                echo "<td>".$vo["member_name"]."</td>";
+                                
+                                echo "<td>".$vo['member_truename']."</td>";
+                                echo "<td>".$vo['member_mobile']."</td>";
+                                ?>
+                                <td><?php echo (strlen($vo['team_sign'])/4)-strlen($s)/4; ?></td>
+                                <td><?php 
+                                   $huiyuan=$vo['leveladd']+ $vo['level'];
+                 if($huiyuan == 0){ echo "普通会员";}else if( $huiyuan == 1){echo "爱心会员";}else if( $huiyuan == 2){echo "公益会员";} else if( $huiyuan == 3){echo "慈善会员";}else if( $huiyuan >= 4){echo "慈孝股东";} ?></td>
+                                <?php
+                             
+
+                                echo "<td>".date('Y-m-d H:i:s',$vo['member_time'])."</td>";
+                                echo "<td>".$vo['intbalance']."</td>";
+
+
+
+                                $i++;
+                                echo "</tr>";
+
+                                }
+                                ?>
+                            </tbody>
+                        </table>
+
+
+                    </div>
+
+                    <div class="row"><div class="col-xs-6"><div class="dataTables_info" id="example-1_info" role="status" aria-live="polite"></div></div><div class="col-xs-6"><div class="dataTables_paginate paging_simple_numbers" id="example-1_paginate">{$show}</div></div></div>
+
+
+                </div>
+
+                <!-- Main Footer -->
+                <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
+                <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
+                <!-- Or class "fixed" to  always fix the footer to the end of page -->
+                <footer class="main-footer sticky footer-type-1">
+                    <div class="footer-inner">
+                        <!-- Add your copyright text here -->
+                        <div class="footer-text">
+                            &copy; 2016 
+                            <strong>中孝科技（北京）有限公司</strong> 
+                        </div>
+                        <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->
+                        <div class="go-up">
+                            <a href="#" rel="go-top">
+                                <i class="fa-angle-up"></i>
+                            </a>				
+                        </div>					
+                    </div>				
+                </footer>
+            </div>			
+        </div>
+        <!-- 界面加载效果 -->
+        <!-- -->
+        <div class="page-loading-overlay">
+            <div class="loader-2"></div>
+        </div>
+        <!-- Bottom Scripts -->
+        <!-- Imported styles on this page -->
+        <link rel="stylesheet" href="__PUBLIC__/assets/js/datatables/dataTables.bootstrap.css">
+        <link rel="stylesheet" href="__PUBLIC__/assets/js/daterangepicker/daterangepicker-bs3.css">
+
+        <!-- Bottom Scripts -->
+        <script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+        <script src="__PUBLIC__/assets/js/TweenMax.min.js"></script>
+        <script src="__PUBLIC__/assets/js/resizeable.js"></script>
+        <script src="__PUBLIC__/assets/js/joinable.js"></script>
+        <script src="__PUBLIC__/assets/js/xenon-api.js"></script>
+        <script src="__PUBLIC__/assets/js/xenon-toggles.js"></script>
+        <script src="__PUBLIC__/assets/js/datatables/js/jquery.dataTables.min.js"></script>
+        <script src="__PUBLIC__/assets/js/moment.min.js"></script>
+
+        <!-- Imported scripts on this page -->
+        <script src="__PUBLIC__/assets/js/datatables/dataTables.bootstrap.js"></script>
+        <script src="__PUBLIC__/assets/js/datatables/yadcf/jquery.dataTables.yadcf.js"></script>
+        <script src="__PUBLIC__/assets/js/datatables/tabletools/dataTables.tableTools.min.js"></script>
+        <script src="__PUBLIC__/assets/js/daterangepicker/daterangepicker.js"></script>
+
+        <!-- JavaScripts initializations and stuff -->
+        <script src="__PUBLIC__/assets/js/xenon-custom.js"></script>
+
+    </body>
+</html>

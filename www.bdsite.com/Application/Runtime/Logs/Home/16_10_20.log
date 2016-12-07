@@ -1,0 +1,1232 @@
+[ 2016-10-20T19:53:10+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Wallet/integral
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 256 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 256 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE `uid` = 256 AND ( isdelete=0 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE `uid` = 256 AND ( isdelete=0 ) ORDER BY declaration_date desc LIMIT 0,16   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_equity` ORDER BY createdate desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 256 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2016-10-20T19:53:10+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Wallet/integral
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 256 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 256 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE `uid` = 256 AND ( isdelete=0 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE `uid` = 256 AND ( isdelete=0 ) ORDER BY declaration_date desc LIMIT 0,16   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_equity` ORDER BY createdate desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 256 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-10-20T19:53:57+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Money/running
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 256 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 256 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ransfer_record` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ransfer_record` WHERE `member_id` = 256 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ransfer_record` WHERE `member_id` = 256 LIMIT 0,10   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-10-20T19:54:30+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Money/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 256 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tb_reward` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_reward` WHERE `inviterid` = '256' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_reward` left join member on tb_reward.userid=member.member_id   WHERE tb_reward.inviterid = '256' LIMIT 0,10   [ RunTime:0.0024s ]
+SQL: SELECT SUM(reward_amount) AS tp_Sum FROM `tb_reward` WHERE `inviterid` = '256' LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-10-20T19:55:11+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Money/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 256 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tb_reward` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_reward` WHERE `inviterid` = '256' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_reward` left join member on tb_reward.userid=member.member_id   WHERE tb_reward.inviterid = '256' LIMIT 10,10   [ RunTime:0.0044s ]
+SQL: SELECT SUM(reward_amount) AS tp_Sum FROM `tb_reward` WHERE `inviterid` = '256' LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-10-20T19:55:35+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Wallet/consume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 256 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `member` WHERE `member_id` = 256 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `rcb_log` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rcb_log` WHERE `member_id` = 256 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `rcb_log` WHERE `member_id` = 256 LIMIT 0,10   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2016-10-20T19:55:45+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 256 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tb_bankinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_bankinfo`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 256 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `member` WHERE `member_id` = 256 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE `uid` = 256 AND ( isdelete = 0 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` WHERE `inviter_id` = '马炳章' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ransfer_record` [ RunTime:0.0019s ]
+SQL: SELECT SUM(charitable) AS tp_Sum FROM `ransfer_record` WHERE `member_id` = 256 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `member` WHERE `member_name` = '孟凤2' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+NOTIC: [8] Undefined index: bankcard D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 437 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-10-20T19:55:48+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Wallet/integral
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 256 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 256 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE `uid` = 256 AND ( isdelete=0 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE `uid` = 256 AND ( isdelete=0 ) ORDER BY declaration_date desc LIMIT 0,16   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_equity` ORDER BY createdate desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 256 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-10-20T19:56:42+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Wallet/integral
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 256 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 256 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE `uid` = 256 AND ( isdelete=0 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_amountrecord` WHERE `uid` = 256 AND ( isdelete=0 ) ORDER BY declaration_date desc LIMIT 0,16   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tb_equity` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_equity` ORDER BY createdate desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 256 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tb_variable` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_variable` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tb_stepinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_stepinfo` ORDER BY step_id asc  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-10-20T19:57:18+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-10-20T19:57:19+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-10-20T19:57:48+08:00 ] 221.223.211.96 /zxsq/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-10-20T19:57:48+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `member` WHERE `member_name` = '王晓飞' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-10-20T19:57:49+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 257 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_bankinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_bankinfo`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 257 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `member` WHERE `member_id` = 257 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE `uid` = 257 AND ( isdelete = 0 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` WHERE `inviter_id` = '王晓飞' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ransfer_record` [ RunTime:0.0018s ]
+SQL: SELECT SUM(charitable) AS tp_Sum FROM `ransfer_record` WHERE `member_id` = 257 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `member` WHERE `member_name` = '马炳章' LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Undefined index: bankcard D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 437 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-10-20T19:58:10+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Money/running
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 257 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 257 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ransfer_record` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ransfer_record` WHERE `member_id` = 257 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ransfer_record` WHERE `member_id` = 257 LIMIT 0,10   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-10-20T19:58:11+08:00 ] 112.65.193.13 /zxsq/index.php/home/money/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] Undefined index: userData D:\WWW\zxsq\Application\Home\Controller\MoneyController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+
+[ 2016-10-20T19:58:26+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Money/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 257 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tb_reward` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_reward` WHERE `inviterid` = '257' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tb_reward` left join member on tb_reward.userid=member.member_id   WHERE tb_reward.inviterid = '257' LIMIT 0,10   [ RunTime:0.0026s ]
+SQL: SELECT SUM(reward_amount) AS tp_Sum FROM `tb_reward` WHERE `inviterid` = '257' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-10-20T19:58:42+08:00 ] 221.223.211.96 /zxsq/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `member` WHERE `member_name` = '郑凤云' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-10-20T19:58:43+08:00 ] 221.223.211.96 /zxsq/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 204 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_bankinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_bankinfo`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 204 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `member` WHERE `member_id` = 204 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE `uid` = 204 AND ( isdelete = 0 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` WHERE `inviter_id` = '郑凤云' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ransfer_record` [ RunTime:0.0019s ]
+SQL: SELECT SUM(charitable) AS tp_Sum FROM `ransfer_record` WHERE `member_id` = 204 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `member` WHERE `member_name` = '颜世杰2' LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Undefined index: bankcard D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 437 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-10-20T19:58:50+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 257 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_bankinfo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tb_bankinfo`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 257 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `member` WHERE `member_id` = 257 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE `uid` = 257 AND ( isdelete = 0 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` WHERE `inviter_id` = '王晓飞' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ransfer_record` [ RunTime:0.0019s ]
+SQL: SELECT SUM(charitable) AS tp_Sum FROM `ransfer_record` WHERE `member_id` = 257 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `member` WHERE `member_name` = '马炳章' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined index: bankcard D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 437 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-10-20T19:59:01+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-10-20T19:59:02+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-10-20T19:59:04+08:00 ] 221.223.211.96 /zxsq/index.php/Home/Withdraw/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 204 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `sys_code_item` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `sys_code_item` WHERE `code_set_id` = 5 AND `code_item_name` = '奖金转消费积分' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `sys_code_item` WHERE `code_set_id` = 5 AND `code_item_name` = '奖金转钱包' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 204 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `member` WHERE `member_id` = 204 LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-10-20T19:59:20+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `member` WHERE `member_name` = '马炳章2' LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-10-20T19:59:21+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 258 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tb_bankinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_bankinfo`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 258 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `member` WHERE `member_id` = 258 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE `uid` = 258 AND ( isdelete = 0 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` WHERE `inviter_id` = '马炳章2' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ransfer_record` [ RunTime:0.0019s ]
+SQL: SELECT SUM(charitable) AS tp_Sum FROM `ransfer_record` WHERE `member_id` = 258 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `member` WHERE `member_name` = '王晓飞' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Undefined index: bankcard D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 437 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-10-20T19:59:31+08:00 ] 221.223.211.96 /zxsq/index.php/Home/Withdraw/account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 204 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-10-20T19:59:35+08:00 ] 221.223.211.96 /zxsq/index.php/Home/Withdraw/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 204 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `sys_code_item` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `sys_code_item` WHERE `code_set_id` = 5 AND `code_item_name` = '奖金转消费积分' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `sys_code_item` WHERE `code_set_id` = 5 AND `code_item_name` = '奖金转钱包' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 204 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `member` WHERE `member_id` = 204 LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-10-20T19:59:44+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Generalize/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined index: username D:\WWW\zxsq\Application\Home\Controller\GeneralizeController.class.php 第 17 行.
+NOTIC: [8] Undefined index: date D:\WWW\zxsq\Application\Home\Controller\GeneralizeController.class.php 第 25 行.
+NOTIC: [8] Undefined index: date D:\WWW\zxsq\Application\Home\Controller\GeneralizeController.class.php 第 31 行.
+NOTIC: [8] Undefined index: username D:\WWW\zxsq\Application\Home\Controller\GeneralizeController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `member` WHERE `member_id` = 258 LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` left join tb_userbalance on member.member_id = tb_userbalance.userid  WHERE `team_sign` LIKE '0001000300010001000200010001000300010002000100010001000100010001000600010001%' AND ( team_sign !=0001000300010001000200010001000300010002000100010001000100010001000600010001 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `member` left join tb_userbalance on member.member_id = tb_userbalance.userid  WHERE `team_sign` LIKE '0001000300010001000200010001000300010002000100010001000100010001000600010001%' AND ( team_sign !=0001000300010001000200010001000300010002000100010001000100010001000600010001 ) ORDER BY length(team_sign) LIMIT 0,10   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2016-10-20T19:59:51+08:00 ] 221.223.211.96 /zxsq/index.php/Home/Withdraw/apply
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 204 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `pd_cash` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pd_cash` WHERE `pdc_payment_state` = '0' AND `pdc_member_id` = 204 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `member` WHERE `member_id` = 204 LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000569s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2016-10-20T20:00:08+08:00 ] 221.223.211.96 /zxsq/index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-10-20T20:00:09+08:00 ] 221.223.211.96 /zxsq/index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2016-10-20T20:00:31+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Generalize/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+NOTIC: [8] Undefined index: username D:\WWW\zxsq\Application\Home\Controller\GeneralizeController.class.php 第 17 行.
+NOTIC: [8] Undefined index: date D:\WWW\zxsq\Application\Home\Controller\GeneralizeController.class.php 第 25 行.
+NOTIC: [8] Undefined index: date D:\WWW\zxsq\Application\Home\Controller\GeneralizeController.class.php 第 31 行.
+NOTIC: [8] Undefined index: username D:\WWW\zxsq\Application\Home\Controller\GeneralizeController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `member` WHERE `member_id` = 258 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` left join tb_userbalance on member.member_id = tb_userbalance.userid  WHERE `team_sign` LIKE '0001000300010001000200010001000300010002000100010001000100010001000600010001%' AND ( team_sign !=0001000300010001000200010001000300010002000100010001000100010001000600010001 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `member` left join tb_userbalance on member.member_id = tb_userbalance.userid  WHERE `team_sign` LIKE '0001000300010001000200010001000300010002000100010001000100010001000600010001%' AND ( team_sign !=0001000300010001000200010001000300010002000100010001000100010001000600010001 ) ORDER BY length(team_sign) LIMIT 0,10   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-10-20T20:01:02+08:00 ] 123.123.135.106 /zxsq/index.php/Home/Money/running
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 258 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 258 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ransfer_record` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ransfer_record` WHERE `member_id` = 258 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ransfer_record` WHERE `member_id` = 258 LIMIT 0,10   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-10-20T20:18:46+08:00 ] 125.39.208.232 /zxsq/?from=groupmessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-10-20T20:45:15+08:00 ] 118.194.243.106 /zxsq/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-10-20T20:46:12+08:00 ] 118.194.243.106 /zxsq/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `member` WHERE `member_name` = '胡爽2' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2016-10-20T20:46:14+08:00 ] 118.194.243.106 /zxsq/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 77 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `tb_bankinfo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_bankinfo`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 77 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `member` WHERE `member_id` = 77 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE `uid` = 77 AND ( isdelete = 0 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` WHERE `inviter_id` = '胡爽2' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ransfer_record` [ RunTime:0.0019s ]
+SQL: SELECT SUM(charitable) AS tp_Sum FROM `ransfer_record` WHERE `member_id` = 77 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `member` WHERE `member_name` = '胡爽1' LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined index: bankcard D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 437 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-10-20T21:00:28+08:00 ] 223.104.3.195 /zxsq/?from=groupmessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2016-10-20T21:28:31+08:00 ] 123.151.64.143 /zxsq/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2016-10-20T21:28:52+08:00 ] 123.151.64.143 /zxsq/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `member` WHERE `member_name` = '李菊华' LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001870s ]
+
+[ 2016-10-20T21:28:54+08:00 ] 123.151.64.143 /zxsq/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 88 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tb_bankinfo` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `tb_bankinfo`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 88 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `member` WHERE `member_id` = 88 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE `uid` = 88 AND ( isdelete = 0 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` WHERE `inviter_id` = '李菊华' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ransfer_record` [ RunTime:0.0019s ]
+SQL: SELECT SUM(charitable) AS tp_Sum FROM `ransfer_record` WHERE `member_id` = 88 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `member` WHERE `member_name` = '郭河魁' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined index: bankcard D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 437 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2016-10-20T21:31:39+08:00 ] 101.226.66.173 /zxsq/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-10-20T21:31:51+08:00 ] 101.226.66.173 /zxsq/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+NOTIC: [8] Undefined index: username D:\WWW\zxsq\Application\Home\Controller\LoginController.class.php 第 17 行.
+NOTIC: [8] Undefined index: loginpwd D:\WWW\zxsq\Application\Home\Controller\LoginController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `member` WHERE `member_name` = null LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+
+[ 2016-10-20T22:22:47+08:00 ] 101.226.61.189 /zxsq/?from=groupmessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2016-10-20T22:22:47+08:00 ] 112.65.190.220 /zxsq/?from=groupmessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-10-20T22:46:54+08:00 ] 123.151.64.143 /zxsq/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-10-20T22:47:19+08:00 ] 123.151.64.143 /zxsq/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `member` WHERE `member_name` = '李菊华' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2016-10-20T22:47:20+08:00 ] 123.151.64.143 /zxsq/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `mb_user_token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `mb_user_token` WHERE `member_id` = 88 ORDER BY token_id desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `tb_bankinfo` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tb_bankinfo`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `tb_userbalance` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_userbalance` WHERE `userid` = 88 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `member` WHERE `member_id` = 88 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `tb_amountrecord` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_amountrecord` WHERE `uid` = 88 AND ( isdelete = 0 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `member` WHERE `inviter_id` = '李菊华' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ransfer_record` [ RunTime:0.0019s ]
+SQL: SELECT SUM(charitable) AS tp_Sum FROM `ransfer_record` WHERE `member_id` = 88 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `member` WHERE `member_name` = '郭河魁' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined index: bankcard D:\WWW\zxsq\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 437 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
